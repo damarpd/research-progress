@@ -1,7 +1,7 @@
-# Progress
+# PhD research
 
 ## Overview
-This research focuses on exploring social force model developed by Dirk Helbing and Peter Molnar. This research will explore towards passenger behaviour within the recent phenomena on rail transit system services.
+This study focuses on exploring metro passenger on board and off board (? dynamics. This study will examine on *social force model* developed by Dirk Helbing and Peter Molnar. This research will explore towards passenger behaviour within the recent phenomena on rail transit system services.
 
 ## Future Output
 1. Paper 1: ...
