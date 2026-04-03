@@ -1,6 +1,6 @@
 # D research
 
-## Proposed Research Title
+## Proposed Research Idea
 Adaptive Behavior of Passengers during Planned and Unplanned Events: A Case Study of the Metro Transit System in Japan
 
 ## Research Overview
