@@ -10,9 +10,10 @@ This study poses four key features: social force model, passenger dynamics, adap
 1. Paper 1: ...
 2. Paper 2: ...
 
-## Repository Structure
-Track the milestone progress at `progress/`
+## About the Repository
+This repository contains research notes and progress. Track the milestone of progress at `progress/`
 
+## Repository Structure
 ```text
 research-progress/
 ├── progress/        # Weekly updates and milestone
