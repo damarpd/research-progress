@@ -1,10 +1,10 @@
 # D research
 
 ## Proposed Research Idea
-Adaptive Behavior of Transit Users during Disruptive Event: A Case Study of the Metro Transit System in Japan
+Adaptive Behavior Response of Transit Users during Disruptive Event: A Case Study of Japan
 
 ## Research Overview
-This study poses four key features: social force model, passenger dynamics, adaptive behaviour (responses), mega event/service disruption (both planned and unplanned), by using rail transit system as a case study. This study is based on *social force model* developed by Dirk Helbing and Peter Molnar. This research will explore towards passenger behaviour within the recent phenomena on rail transit system services.
+This study poses four key features: adaptive behaviour (responses), mega event/service disruption (both planned and unplanned), passenger dynamics, and social force model by using public transportation system in Japan as a case study. This study is based on *social force model* developed by [Helbing, D., and Molnar, P.,(1995)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.51.4282). This research will explore towards passenger behavior within the recent phenomena on public transportation services.
 
 ## Future Output
 1. Paper 1: ...
