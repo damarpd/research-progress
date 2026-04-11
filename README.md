@@ -1,5 +1,7 @@
 # D research
 
+>Laboratory's motto: Philosophy to Computation
+
 ## Proposed Research Idea
 Adaptive Behavior Response of Transit Users during Disruptive Event: A Case Study of Japan
 
