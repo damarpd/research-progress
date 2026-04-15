@@ -22,7 +22,7 @@ This file is created as compilation of notes derived from each `weekly progress`
 - crowd control -> usually organized in large-scale event (i.e. music concert)
 
 ### Notes for additional content to research proposal:
-- Upon the this 11/04 progress literature review, this study proposed research questions as a basis to develop research objectives.
+- Upon the 11/04 progress literature review, this study proposes research questions as a basis to develop research objectives.
 - A proposed research questions (tbc to sensei) can be indicated as follow
 > (1) How do passengers adapt (related to motion,dynamics, and group form) in response to disruptive events occur in public transportation services? (2) How do transit agency supposed to organize the crowd during the disruptive events?
 - A proposed general research objective (tbc to sensei) can be addressed as follow:
