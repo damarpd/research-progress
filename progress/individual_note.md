@@ -1,5 +1,5 @@
 # individual notes
-This file is created as compilation of notes derived from each `weekly progress` file as indicated the filename format `yyyy-mm-dd.md` in the `progress` folder. 
+This file is created as compilation of notes derived from each `weekly progress` file as indicated the filename format `yyyy-mm-dd.md` in the `progress` folder. Additionally, this file also highlighted the future task should be undertaken to make progress on the research.
 
 ## 2026-04-03.md file
 ### Notes for new terms:
