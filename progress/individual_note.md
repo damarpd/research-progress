@@ -29,7 +29,9 @@ This file is created as compilation of notes derived from each `weekly progress`
 > (1) To understand passengers dynamics as a result adaptive response behavior to disruptive events in public transport services; (2) To develop crowd control framework in public transportation system during disruptive event.
 
 
-
+## 27/04
+- Research title idea -> Public Transit Dynamics Prediction/Simulation Framework: An Adaptive Behavior Response to Disruptive Event in Japan Context
+-  
 
 
 
