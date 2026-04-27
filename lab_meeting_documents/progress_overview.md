@@ -4,7 +4,7 @@
 
 
 ## Literature Review
-Below the synthetic literature review of related topics
+Below the synthetic literature review of related keyword of this study. Pedestrian dynamics model can be devided by two categories namely continous model and discrete-based model ([Chen,Xu, et.al, 2017](https://doi.org/10.1080/01441647.2017.1396265))
 
 |Topics|Proposed aspect|Key features|Situation/location|Sources|
 |------|--------|------------|:-------:|--------|
@@ -15,6 +15,9 @@ Below the synthetic literature review of related topics
 |||Conducted in normal pedestrian behavior |||
 ||Improved Social Force Model (ISFM)|Simulating pedestrian motion (evacuation) during subway station fire incident|Subway station|[Zhang, et.al.,2023](https://doi.org/10.1080/17538947.2023.2197261)|
 |||Proposed model which take 'environmental role' $(f_{ie})$ and a 'subjective initiative' $(f_{ig})$ into account|||
+||Modified Social Force Model (MSFM)|This proposed-model explored passenger dynamics during boarding and alighting in metro transit system||[Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279)|
+|||MSFM considered eliptical agents, rotational dynamics, and specific DPE (Disembarking Preceed Embarking) rule.|||
+|||A new attraction force is proposed to MSFM $(f_{ig})$ to define behavior of following other pedestrians and avoiding obstacles|||
 |Large-scale event|||||
 |Crowding (related to public transport)||||
 
