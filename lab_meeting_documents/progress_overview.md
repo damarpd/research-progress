@@ -1,4 +1,4 @@
-# Adaptive Behavior Response of Transit Users during Disruptive Event: A Case Study...
+# Public Transit User Dynamics Prediction/Simulation Framework: An Adaptive Behavior Response to Disruptive Event in Japan Context
 
 ## Introduction
 

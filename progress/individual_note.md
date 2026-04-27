@@ -30,7 +30,7 @@ This file is created as compilation of notes derived from each `weekly progress`
 
 
 ## 27/04
-- Research title idea -> Public Transit Dynamics Prediction/Simulation Framework: An Adaptive Behavior Response to Disruptive Event in Japan Context
+- Research title idea -> Public Transit User Dynamics Prediction/Simulation Framework: An Adaptive Behavior Response to Disruptive Event in Japan Context
 -  
 
 
