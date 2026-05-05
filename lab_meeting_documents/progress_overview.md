@@ -7,9 +7,9 @@
 
 
 ## Literature Review
-Below the synthetic literature review of related keyword of this study. Pedestrian dynamics model can be devided by two categories namely continous model and discrete-based model ([Chen,Xu, et.al, 2017](https://doi.org/10.1080/01441647.2017.1396265))
+Pedestrian dynamics model can be devided by two categories namely continous model and discrete-based model ([Chen,Xu, et.al, 2017](https://doi.org/10.1080/01441647.2017.1396265)). Below the synthetic literature review of related to key features of this study. 
 
-|Topics|Proposed aspect|Key features|Situation/location|Sources|
+|Topics||Key features|Context (location)|References|
 |------|--------|------------|:-------:|--------|
 |Social force model|Original Social Force Model|This framework identify pedestrian motion adopting Newton's second law, which contains three forces determining pedestrian motion|-|[Helbing D., and Molnar P. (1995)](https://doi.org/10.1103/PhysRevE.51.4282)|
 |||Three rules are acceleration term (self-driving force), repulsive efect toward other pedestrian and borders, such as building and wall etc, and attractive effect force|||
@@ -32,4 +32,6 @@ Below the synthetic literature review of related keyword of this study. Pedestri
 ## Findings/Analysis Result
 
 ## Current Challenges and Future Plan
+
+
 
