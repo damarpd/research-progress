@@ -47,18 +47,26 @@ Rapid urbanization has become a defining feature of contemporary cities. To faci
 
 During off-peak hours, operational issues such as delays are relatively uncommon. However, as passenger demand intensifies during peak periods, such issues become more prevalent. In particular, critical processes such as boarding and alighting operations can serve as key contributors to these delays.
 
-On the one hand, large event.
+On the one hand, large-scale event has extensively investigate as such disruption can be significant impact to public transport service. Moreover, there arre
+
+By the definition, [Parkes et.al.,(2016)](http://dx.doi.org/10.1016/j.tra.2016.07.006) argued that such mega event refers to events that draw substantial numbers of individuals to a location, placing the local environment and infrastructure under great pressure, and bringing disruption to residents. 
 
 In terms of methodological area,
 
 <u>Rationale</u>
 
-While previous studies focussed on examining passengers dynamics to get on and get off the vehicle (during the boarding and alighting process), examining remaining passengers dynamics, in other words **adaptation behavior**, during the boarding and alighting proccess remains underexplored. Additionaly, during the large scale event. 
+While previous studies focussed on examining passengers dynamics to get on and get off the vehicle, during the boarding and alighting process ([Qu Y., et.al.,2019](https://doi.org/10.1016/j.physa.2019.121075), [Seriani and Fernandez, (2015)](https://doi.org/10.1016/j.trc.2015.02.003), [Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279)), this study focusses on remaining on-board passengers dynamics as part of **adaptation behavior**, during the boarding and alighting proccess. Additionally to bring broader novelty within microscopics pedestrian models in public transport situation, this idea is proposed during the large-scale event situation, which can be impacted public transport operations directly.
+
 
 <u>Research objective</u>
 
-The aim of this study is to examine the public transit user adapting behavior in responses to operations shock (crowding) during the large scale event. 
+Building upon the literature review, this study proposes the reseach objective. The aim of this study is to examine the public transit user adapting behavior in responses to operations shock (crowding) during the large scale event. 
 
+
+
+<u>Research question</u>
+
+<u>Research gap and contribution</u>
 
 ### Future task
 List to expand understanding
