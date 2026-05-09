@@ -41,21 +41,22 @@ This file is created as compilation of notes derived from each `weekly progress`
 
 ### Background study
 
-<u>Statement of the problem</u>
+<u>General problem</u>
 
-Rapid urbanization has become a defining feature of contemporary cities. To facilitate daily mobility for various trip purposes, such as commuting to work and school, the use of public transportation has been increasingly promoted. This trend has led to a growing demand for public transport systems, particularly metro rail and city bus services, within urban contexts.
+Rapid urbanization has become a defining feature of modern cities. To facilitate daily mobility for various trip purposes, such as commuting to work and school, the use of public transportation has been increasingly promoted. This trend has led to a growing demand for public transport systems, particularly metro rail and city bus services, within urban contexts. During off-peak hours, operational issues such as delays are relatively uncommon. However, as passenger demand intensifies during peak periods, such issues become more prevalent. In particular, critical processes such as passenger movement/dynamics within boarding and alighting operations can serve as key contributors to these delays.
 
-During off-peak hours, operational issues such as delays are relatively uncommon. However, as passenger demand intensifies during peak periods, such issues become more prevalent. In particular, critical processes such as boarding and alighting operations can serve as key contributors to these delays.
+On the one hand, large-scale events have received considerable scholarly attention due to their potential to disrupt public transport services. In the literature, such phenomena have been conceptualized using various terms, including *mega-events* ([Parkes et.al.,2016](https://doi.org/10.1016/j.tra.2016.07.006)), *disruption/service disruption* ([Pnevmatikou et.al,2015](https://link.springer.com/article/10.1007/s11116-015-9656-4); [Rahimi et.al.,2019](https://doi.org/10.1016/j.trd.2019.10.011)), *shock to the transport system* ([Jenelius E., and Mattsson, L.G.,2021](https://doi.org/10.1016/B978-0-08-102671-7.10719-5)), and *large-scale event* ([Kopsacheilis A., 2026](https://doi.org/10.1080/03081060.2026.2643729)). According to [Parkes et.al.,(2016)](http://dx.doi.org/10.1016/j.tra.2016.07.006), such phenomena are defined as event that draw substantial numbers of individuals to a location, placing the local environment and infrastructure under great pressure, and bringing disruption to residents. 
 
-On the one hand, large-scale event has extensively investigate as such disruption can be significant impact to public transport service. Moreover, there arre
+Within the methodological area of microscopics pedestrian modelling, [Chen,Xu, et.al, (2017)](https://doi.org/10.1080/01441647.2017.1396265) classified pedestrian dynamics models into two primary categories namely continuous model and discrete-based model. Among the continuous approaches, the Social Force Model (SFM), originally proposed by [Helbing, D., and Molnar, P.,(1995)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.51.4282), remains one of the most widely applied frameworks for simulating pedestrian dynamics. SFM has been explored to enhance the understanding of pedestrian dynamics accross various context, including open space such as sidewalks ([Siddhart, S.M.P. and Vedagiri, P., 2018](https://doi.org/10.1177/0361198118758673), [Zhao X., et.al., 2026](https://doi.org/10.3390/su18020746)), emergency situation ([Zhang, et.al.,2023](https://doi.org/10.1080/17538947.2023.2197261)), and metro transit system, speficifically during boarding and alighting ([Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279)). 
 
-By the definition, [Parkes et.al.,(2016)](http://dx.doi.org/10.1016/j.tra.2016.07.006) argued that such mega event refers to events that draw substantial numbers of individuals to a location, placing the local environment and infrastructure under great pressure, and bringing disruption to residents. 
+<u>Rationale of the study</u>
 
-In terms of methodological area,
+While most existing studies have focussed on passengers dynamics during the boarding and alighting process, specifically examining movements associated with entering and exiting vehicles ([Qu Y., et.al.,2019](https://doi.org/10.1016/j.physa.2019.121075), [Seriani and Fernandez, 2015](https://doi.org/10.1016/j.trc.2015.02.003), [Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279)), this study shifts attention to the dynamics of remaining on-board passengers as part of **adaptation mechanism**. Investigating such behavior is essential, as on-board passengers adjustments may significantly influence overall passenger flow and operational efficiency. 
 
-<u>Rationale</u>
+Furthermore, to introduce broader novelty within the field of microscopic pedestrian modeling, this study situates the proposed framework within the context of public transport operations during large-scale events, which are likely to exert direct and substantial impacts on system performance.
 
-While previous studies focussed on examining passengers dynamics to get on and get off the vehicle, during the boarding and alighting process ([Qu Y., et.al.,2019](https://doi.org/10.1016/j.physa.2019.121075), [Seriani and Fernandez, (2015)](https://doi.org/10.1016/j.trc.2015.02.003), [Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279)), this study focusses on remaining on-board passengers dynamics as part of **adaptation behavior**, during the boarding and alighting proccess. Additionally to bring broader novelty within microscopics pedestrian models in public transport situation, this idea is proposed during the large-scale event situation, which can be impacted public transport operations directly.
+Those above mentioned situation remain underexplored using the SFM. 
+
 
 
 <u>Research objective</u>

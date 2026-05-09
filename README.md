@@ -6,7 +6,7 @@ This is `README` file for a landing page of D research.
 Public Transit User Dynamics Prediction/Simulation Framework: An Adaptive Behavior Response to Disruptive Event in [Case Study] Context
 
 ## Research Overview
-This study poses four key features: adaptive behaviour (responses), mega event/service disruption (both planned and unplanned), passenger dynamics, and social force model by using public transportation system in Japan as a case study. This study is based on *social force model* developed by [Helbing, D., and Molnar, P.,(1995)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.51.4282). This research will explore towards passenger behavior within the recent phenomena on public transportation services.
+This study poses four key features: adaptive behaviour (responses), mega event/service disruption (both planned and unplanned), passenger dynamics, and social force model by using public transportation system in [location] as a case study. This study is based on *social force model* developed by [Helbing, D., and Molnar, P.,(1995)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.51.4282). This research will explore towards passenger behavior within the recent phenomena on public transportation services.
 
 ## Future Output
 1. Paper 1: ...
