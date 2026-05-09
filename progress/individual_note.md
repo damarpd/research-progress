@@ -31,8 +31,40 @@ This file is created as compilation of notes derived from each `weekly progress`
 
 ## 27/04
 - Research title idea -> Public Transit User Dynamics Prediction/Simulation Framework: An Adaptive Behavior Response to Disruptive Event in Japan Context
--  
 
+## 09/05
+- academic contribution and practical contribution
+- structure the background study
+- define the research gap
+- define the empirical issue occured in public transportation operations currently both during regular working day (peak and non-peak hour) and large scale event -> provide the findings
+- Below a proposed structure to `background study`, `research question`
+
+### Background study
+
+<u>Statement of the problem</u>
+
+Rapid urbanization has become a defining feature of contemporary cities. To facilitate daily mobility for various trip purposes, such as commuting to work and school, the use of public transportation has been increasingly promoted. This trend has led to a growing demand for public transport systems, particularly metro rail and city bus services, within urban contexts.
+
+During off-peak hours, operational issues such as delays are relatively uncommon. However, as passenger demand intensifies during peak periods, such issues become more prevalent. In particular, critical processes such as boarding and alighting operations can serve as key contributors to these delays.
+
+On the one hand, large event.
+
+In terms of methodological area,
+
+<u>Rationale</u>
+
+While previous studies focussed on examining passengers dynamics to get on and get off the vehicle (during the boarding and alighting process), examining remaining passengers dynamics, in other words **adaptation behavior**, during the boarding and alighting proccess remains underexplored. Additionaly, during the large scale event. 
+
+<u>Research objective</u>
+
+The aim of this study is to examine the public transit user adapting behavior in responses to operations shock (crowding) during the large scale event. 
+
+
+### Future task
+List to expand understanding
+|Authors|Key finding|
+|---|---|
+|[Seriani and Fernandez, (2015)](https://doi.org/10.1016/j.trc.2015.02.003)|**Title:** Pedestrian traffic management of boarding and alighting in metro stations, **Key finding:** **Note from literature:** However, as the passenger demand increases, the dwell time becomes more dependent on boarding and alighting operations and “station dwell times are the major component of headways at short frequencies” (TRB, 2003: 5–19). The authors also argued that continous movement on pedestrian dynamics modelling ensure more realistic representations as the space is free from artificial restrictions, such as celss or grids in Cellular Automata approach|
 
 
 

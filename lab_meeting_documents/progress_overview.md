@@ -1,4 +1,4 @@
-# Public Transit User Dynamics Prediction/Simulation Framework: An Adaptive Behavior Response to Disruptive Event in Japan Context
+# Public Transit User Dynamics Prediction/Simulation Framework: An Adaptive Behavior Response to Disruptive Event in [Case Study] Context
 
 
 
@@ -7,7 +7,7 @@
 
 
 ## Literature Review
-Pedestrian dynamics model can be devided by two categories namely continous model and discrete-based model ([Chen,Xu, et.al, 2017](https://doi.org/10.1080/01441647.2017.1396265)). Below the synthetic literature review of the improvement of the social force model based on previous studies in the past recent years.
+Pedestrian dynamics model can be devided by two categories namely continous model and discrete-based model ([Chen,Xu, et.al, 2017](https://doi.org/10.1080/01441647.2017.1396265)). This study focusses on Below the synthetic literature review of the improvement of the social force model based on previous studies in the past recent years.
 
 |Topics|Key feature|Overview|Data collection method|Context (location)|References|
 |------|--------|------------|--------|:-------:|--------|
