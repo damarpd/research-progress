@@ -51,30 +51,37 @@ Within the methodological area of microscopics pedestrian modelling, [Chen,Xu, e
 
 <u>Rationale of the study</u>
 
-To introduce broader novelty within the field of microscopic pedestrian modeling, this study situates the proposed framework within the context of public transport operations during large-scale events, which are likely to exert direct and substantial impacts on system performance caused by passenger crowding. 
+This study expects to introduce novel insights into the field of microscopic pedestrian modeling by situating the proposed framework within the context of public transport operations during large-scale events. Such events are known to generate intense passenger crowding, which can exert direct and substantial pressure on system performance. Despite these conditions, existing modeling approaches have not adequately captured the complexity of passenger interactions under such disrupted and high-density scenarios. 
 
-In addition, most existing studies specifically focussed on examining passengers movements associated with entering and exiting vehicles, during the boarding and alighting process ([Qu Y., et.al.,2019](https://doi.org/10.1016/j.physa.2019.121075), [Seriani and Fernandez, 2015](https://doi.org/10.1016/j.trc.2015.02.003)), while at this moment only [Yining Jia, et.al.(2026)](https://doi.org/10.1016/j.physa.2026.131279) that consider categorization of metro system passenger into three type (passenger remaining in the car, alighting passenger, and boarding passenger) which situated in normal condition and the remaining passengers are distributed on seats, according to the controlled experiment conducted by [Fu L., et.al., 2023](https://doi.org/10.1016/j.tust.2023.105362). 
+Most prior studies have primarily focused on passenger movements associated with entering and exiting vehicles during boarding and alighting processes ([Qu Y., et.al.,2019](https://doi.org/10.1016/j.physa.2019.121075), [Seriani and Fernandez, 2015](https://doi.org/10.1016/j.trc.2015.02.003)). In contrast, at this moment, only [Yining Jia, et.al.(2026)](https://doi.org/10.1016/j.physa.2026.131279) explicitly consider a categorization of metro passengers into three groups—boarding, alighting, and remaining on-board passengers. However, their analysis is situated within normal operating conditions, where remaining passengers are typically seated, as supported by controlled experimental settings by [Fu L., et.al., 2023](https://doi.org/10.1016/j.tust.2023.105362). This limits the applicability of existing findings to more complex and crowded real-world contexts
 
-Accordingly, this study proposes to give attention to the dynamics of remaining on-board passengers during the crowding caused by large-scale event, which usually situated as part of **adaptation mechanism** as additional of the previous boarding-alighting-focussing studies. Investigating such behavior is essential, as on-board passengers adjustments may significantly influence overall passenger flow and operational efficiency. 
+Accordingly, this study places particular emphasis on the dynamics of remaining on-board passengers under crowding conditions induced by large-scale events. In such contexts, these passengers are not passive occupants but actively engage in adaptive behaviors to accommodate boarding and alighting flows. This **adaptive mechanism**, which operates alongside conventional boarding and alighting dynamics, remains insufficiently explored in the literature. Understanding these interactions is critical, as adjustments made by on-board passengers can significantly influence passenger flow efficiency, dwell time, and overall operational performance. Notably, this phenomenon has received limited attention within the Social Force Model (SFM) framework.
 
-
-Those above mentioned situation remain underexplored using the SFM approach. 
+In addition, this study seeks to broaden the analytical perspective by incorporating a discrete behavioral modeling approach, introduced by [Robin, Th., et.al.,2009](https://doi.org/10.1016/j.trb.2008.06.010), thereby complementing continuous modeling frameworks and providing a more comprehensive understanding of passenger dynamics under complex and high-density conditions.
 
 
 
 <u>Research objective</u>
 
-Building upon the literature review, this study proposes the research objective. The aim of this study is to examine the public transit user adapting behavior in responses to operations shock (crowding) during the large scale event. 
+Building upon the literature review, this study proposes the research objective. The aim of this study is to examine the public transit user adapting behavior under the large-scale event-induced crowding situated
 
 
 
 <u>Research question</u>
 
+(1) How do the adaptive behaviors of passengers influence flow dynamics and operational performance (e.g., dwell time and congestion) during boarding and alighting processes under large-scale event–induced crowding conditions?
+
+(2) *not decided (but related to discrete approach)*
+
 
 
 <u>Research gap and contribution</u>
+ 
 
-the expected result of this study can provide deepen understanding to help public transit operator 
+|Type of gap|Identified gap|Study approach|Academic contribution|Practical contribution|
+|---------|----------|-----------|------------|-------------|
+|Empirical gap|Lack of empirical or simulation-based studies on **passenger dynamics** during the large-scale event-induced crowding situated on public transport system|Examines passenger dynamics under high-density conditions|Provides new evidence on passenger behavior and system performance in disrupted scenarios|By understanding how remaining on-board passengers adapt (e.g., repositioning, yielding space), operators can design better boarding/alighting procedures or crowd management during the operations|
+|Theoretical gap|The SFM emphasizes individual movement/dynamics by forces but underrepresent on adaptive behavior on remaining passengers during the boarding-alighting process|Introduces adaptation mechanism of on-board passengers within pedestrian dynamics framework|Extends SFM by incorporating adaptivve behavior in high density context|*tbd*|
 
 ### Future task
 List to expand understanding
