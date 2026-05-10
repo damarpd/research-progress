@@ -1,5 +1,4 @@
-# Public Transit User Dynamics Framework: An Adaptive Behavior In Response to Disruptive Event in [Case Study] Context
-
+# Public Transit User Dynamics: A Simulation Framework Under Large-Scale Event in [location] Context
 
 
 
