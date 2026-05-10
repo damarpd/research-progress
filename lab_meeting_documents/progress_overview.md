@@ -1,4 +1,4 @@
-# Public Transit User Dynamics Prediction/Simulation Framework: An Adaptive Behavior Response to Disruptive Event in [Case Study] Context
+# Public Transit User Dynamics Framework: An Adaptive Behavior In Response to Disruptive Event in [Case Study] Context
 
 
 
@@ -34,8 +34,13 @@ Pedestrian dynamics model can be devided by two categories namely continous mode
 |||**Pedestrian effective binocular vision range** is limited at 120 $^o$, meaning that pedestrians can only perceive others within 120 $^o$ sector centered on their walking direction||||
 |||Improvement made by incorporating **group-type categorization** -> improved pairing behavior model-> this study proposed heterogenous form of group pedestrian into the model by varying pedestrian social relationship denoted as $T_g$; $T_{g} \in (T_{gfd}, T_{gcl}, T_{gfy}, T_{ged})$||||
 |||**Evasion maneuveurs**-> collective avoidance forces meaning that a group of pedestrian preceed avoidance maneuver collectively comprising (a) unified avoidance and (b) inter-weavering avoidance -> this study proposed as accompanying pedestrian avoidance force $(f_{gr})$||||
-|Large-scale event||||||
-|Crowding (related to public transport)|||||
+
+Below related to large-event scale type:
+|Large-scale event type|Event year|Host country/city|Key features|References|
+|----------------------|:--------:|:---------------:|------------|----------|
+|FIFA World cup|2022|Qatar|this study examining the impact of the FIFA World Cup 2022 and evaluating the effectiveness of various TDM measures on traveler behavior across different sociodemographic segments|[Mohammed, A., et.al. (2025)](https://doi.org/10.1016/j.cstp.2025.101469)|
+
+
 
 
 ## Methodology
