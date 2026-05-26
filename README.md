@@ -1,6 +1,6 @@
 # D research
 
-This `README` file is prepared for a landing page of research.
+This `README` file is prepared for a landing page of my research.
 
 ## Proposed Research Idea
 Public Transit User Dynamics: A Simulation Framework Under Large-Scale Event in [Case Study] Context
