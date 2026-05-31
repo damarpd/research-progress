@@ -93,23 +93,47 @@ List to expand understanding
 
 ## 31/05
 
-- This study focuses on the public transport operation, specifically during boarding and alighting process
-- Adopting from [Fujiwara, K., et al. (n.d.)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5163637) study =, the key players/agents from the process are introduced/proposed in my study (note this is assumed in crowding situation happened inside the car/vehicle in term of public transport system):
+### Developing alternative framework incorporating passengers interactions between passenger type during boarding and alighting process  
 
-||State|Moving|Moving|
+- This study focuses on the public transport operation, specifically during boarding and alighting process.
+- In a crowd, the behavior of each pedestrian is different, since it severely influences the movement characteristics, thus, developing crowd model by implementing multiple pedestrian classes is essential ([Duives D.C.,Daamen W., Hoogendoorn S.P., 2013](https://doi.org/10.1016/j.trc.2013.02.005)).
+- Adopting from [Fujiwara, K., et al. (n.d.)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5163637) study, the key players/agents carrying out the process are introduced/proposed in my study (note this is assumed in crowding situation happened inside the car/vehicle in terms of public transport system):
+
+|||Staying|Staying|
 |--|---|------|------|
-||State|Passenger alighting $(PA_{m})$|Passenger boarding $(PB_m)$|
-|**Staying**|Passenger stay inside the car $(PC_{s})$|Interaction = $PC_{s}$ might adjust the position to allow $PA_{m}$ prepare for alighting| Interaction = $PB_{m}$ moves into trains looking for space to stand, $PC_{s}$ might adjust the position giving space for $PB_{m}$|
-|**Staying**|Passenger stay on the platform waiting for boarding process $(PP_{s})$|Interaction = $PA_{m}$ moves on to the platform while avoiding $PP_{s}$ standing on the platform, $PP_{s}$ might adjust the location| *not sure yet*
+||**State**|Passenger stay inside the car $(PC_{s})$|Passenger stay on the platform waiting for boarding process $(PP_{s})$|
+|**Moving**|Passenger alighting $(PA_{m})$|Interaction = $PC_{s}$ might adjust the position to allow $PA_{m}$ prepare for alighting|Interaction = $PA_{m}$ moves on to the platform while avoiding $PP_{s}$ standing on the platform, $PP_{s}$ might adjust the location |
+|**Moving**|Passenger boarding $(PB_m)$|Interaction = $PB_{m}$ moves into trains looking for space to stand, $PC_{s}$ might adjust the position giving space for $PB_{m}$| *not sure yet*
+
+- Below detailed description of each interaction possibly occurred between each passenger type -> *need to be discussed*
+
+<u>*PAm* and *PPs* Interaction</u>
+
+- Interaction between $PA_{m}$ and $PP_{s}$ might be occurred during the boarding-alighting process, according to [Shen et al (2026)](https://doi.org/10.1016/j.simpat.2026.103260) incorporates this into the simulation which situated when the walking process from the train door to the vertical pedestrian transit facility (e.g. stair or elevator), the movement of an alighting passenger is affected by the waiting passengers on the platform.
+- Considered in collision avoidance behavioral aspect.
+
+<u>*PAm* and *PCs* Interactions</u>
+- Considered in collision avoidance behavioral aspect.
 
 
-- Interaction between $PA_{m}$ and $PP_{s}$ might be occurred during the boarding-alighting process, according to [Shen et al (2026)](https://doi.org/10.1016/j.simpat.2026.103260) incorporates this into the simulation which situated when the walking process from the train door to the vertical pedestrian transit facility, the movement of an alighting passenger is affected by the waiting passengers on the platform.
-
-<u>to be continued</u>
-
-- Define all possibility interaction as mentioned above using pedestrian interactions.
-
-- Possibility to examination of passengers attitude towards crowding on the public transport station incorporating proposed agents.
+<u>*PBm* and *PCs* Interaction</u>
+- Considered in collision avoidance behavioral aspect.
 
 
+### Assessing passengers dynamics through microscopic and macroscopic lens 
+
+- [Qu et al (2019)](https://doi.org/10.1016/j.physa.2019.121075) assessed pedestrian dynamics through video-recorded data, generating pedestrian metrics, from microscopic and macroscopic lens
+
+|Category|Description|Estimated Output|
+|----|----------|------|
+|Microscopic|Individual movement data and the interactions between consecutive passengers|Time headway distribution|
+|||Behavioral patterns|
+|||Individual movement characteristics|
+|Macroscopic|This analysis evaluates the aggregate behavior and overall performance of the crowd flow|Inflow and outflow rates|
+|||Bottleneck capacity utilization|
+|||Dwell time estimation|
+
+### Examining passengers attitudes toward crowding on public transport
+
+- Possibility to examination of passengers attitude towards crowding on the public transport station considering proposed passengers' type.
 
