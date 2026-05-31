@@ -91,3 +91,25 @@ List to expand understanding
 
 
 
+## 31/05
+
+- This study focuses on the public transport operation, specifically during boarding and alighting process
+- Adopting from [Fujiwara, K., et al. (n.d.)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5163637) study =, the key players/agents from the process are introduced/proposed in my study (note this is assumed in crowding situation happened inside the car/vehicle in term of public transport system):
+
+||State|Moving|Moving|
+|--|---|------|------|
+||State|Passenger alighting $(PA_{m})$|Passenger boarding $(PB_m)$|
+|**Staying**|Passenger stay inside the car $(PC_{s})$|Interaction = $PC_{s}$ might adjust the position to allow $PA_{m}$ prepare for alighting| Interaction = $PB_{m}$ moves into trains looking for space to stand, $PC_{s}$ might adjust the position giving space for $PB_{m}$|
+|**Staying**|Passenger stay on the platform waiting for boarding process $(PP_{s})$|Interaction = $PA_{m}$ moves on to the platform while avoiding $PP_{s}$ standing on the platform, $PP_{s}$ might adjust the location| *not sure yet*
+
+
+- Interaction between $PA_{m}$ and $PP_{s}$ might be occurred during the boarding-alighting process, according to [Shen et al (2026)](https://doi.org/10.1016/j.simpat.2026.103260) incorporates this into the simulation which situated when the walking process from the train door to the vertical pedestrian transit facility, the movement of an alighting passenger is affected by the waiting passengers on the platform.
+
+<u>to be continued</u>
+
+- Define all possibility interaction as mentioned above using pedestrian interactions.
+
+- Possibility to examination of passengers attitude towards crowding on the public transport station incorporating proposed agents.
+
+
+
