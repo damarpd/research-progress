@@ -97,10 +97,11 @@ List to expand understanding
 
 ## 31/05
 
-What I did within these two weeks
+## Current situation
 
 - Understanding on [Fujiwara, K., et al. (n.d.)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5163637)
-- Considering two type of state passengers type during boarding-alighting process. 
+- Considering two type of state passengers type during boarding-alighting process -> define interactions between passengers state type. 
+- Developing RQ
 
 ### Developing alternative framework incorporating passengers interactions between passenger type during boarding and alighting process  
 
