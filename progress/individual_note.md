@@ -100,8 +100,8 @@ List to expand understanding
 ## Current situation
 
 - Understanding on [Fujiwara, K., et al. (n.d.)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5163637)
-- Considering two type of state passengers type during boarding-alighting process -> define interactions between passengers state type. 
-- Developing RQ
+- Proposed two type of state passengers type during boarding-alighting process -> defined interactions between passengers state type. 
+- Developed RQ again considering the slightly different research story.
 
 ### Developing alternative framework incorporating passengers interactions between passenger type during boarding and alighting process  
 
