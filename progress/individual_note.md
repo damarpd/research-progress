@@ -131,16 +131,7 @@ What I did within these two weeks
 
 ### Assessing passengers dynamics through microscopic and macroscopic lens 
 
-- [Qu et al (2019)](https://doi.org/10.1016/j.physa.2019.121075) assessed pedestrian dynamics through video-recorded data, generating pedestrian metrics, from microscopic and macroscopic lens
-
-|Category|Description|Estimated Output|
-|----|----------|------|
-|Microscopic|Individual movement data and the interactions between consecutive passengers|Time headway distribution|
-|||Behavioral patterns|
-|||Individual movement characteristics|
-|Macroscopic|This analysis evaluates the aggregate behavior and overall performance of the crowd flow|Inflow and outflow rates|
-|||Bottleneck capacity utilization|
-|||Dwell time estimation|
+- how can we assess public transport performance through passengers' dynamics with observed data (video-recorded data)?
 
 ### Examining passengers attitudes toward crowding on public transport
 
