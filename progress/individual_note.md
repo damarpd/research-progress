@@ -1,6 +1,10 @@
 # individual notes
 This file is created as compilation of notes derived from each `weekly progress` file as indicated the filename format `yyyy-mm-dd.md` in the `progress` folder. Additionally, this file also highlighted the future task should be undertaken to make progress on the research.
 
+## Table of content
+
+- [Research progress per 31/05](#3105)
+
 ## 2026-04-03.md file
 ### Notes for new terms:
 - Critically evaluated
@@ -93,10 +97,10 @@ List to expand understanding
 
 ## 31/05
 
-$\colorbox{grey}{What I did within this two weeks}$
+What I did within these two weeks
 
-- Understanding on 
-- Considering two type of state passengers type during boarding-alighting process
+- Understanding on [Fujiwara, K., et al. (n.d.)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5163637)
+- Considering two type of state passengers type during boarding-alighting process. 
 
 ### Developing alternative framework incorporating passengers interactions between passenger type during boarding and alighting process  
 
@@ -146,20 +150,20 @@ $\colorbox{grey}{What I did within this two weeks}$
 
 Based on the above-mentioned of the sub-objective, the research question can be indicated as follows:
 
-(RQ1) How do passengers’ attitudes and perceptions influence their movement behavior in crowded public transport?
+(RQ1) What pedestrian movement patterns can be observed in crowded public transport using video-recorded data at microscopic and macroscopic levels? 
 
-(RQ2) What pedestrian movement patterns can be observed in crowded public transport using video-recorded data at microscopic and macroscopic levels?
+(RQ2) How do passengers’ attitudes and perceptions influence their movement behavior in crowded public transport? -> when they are in stationary state and non-stationary state.
 
-(RQ3) What alternative framework can better represent interactions among different passenger types during boarding and alighting in crowded public transport?
+(RQ3) What alternative framework can better represent interactions among different passenger types during boarding and alighting in crowded public transport? -> develop alternative framework with proposed passengers state type (stationary and non-stationary)
 
 <u>What I want to do within this week</u>
 
+- RQ1 -> Provide more elaboration the academical logic behind why come up with RQ1.
+    - At-this-moment -> microscopic and macroscopic problem to assess public transport performance within observed record-data through passenger dynamics lens -> emphasizing assessment to observed public transport dynamics through video-record data by generating microscopic and macroscopic metrics (metrics not decided yet and need more elaboration).
 
-- Provide more elaboration the logic research behind for RQ1 -> examining perceived attitudes and perceptions with differentiate passenger state type (when passenger is in stationary condition and non-stationary)
+- RQ2 -> Provide more elaboration the academical logic behind why come up with RQ1 -> examining perceived attitudes and perceptions with differentiate passenger state type (when passenger is in stationary condition and non-stationary)
 
-- Provide more elaboration the logic research behind why come up with RQ2 -> emphasizing assessment to observed public transport dynamics through video-record data by generating microscopic and macroscopic metrics (metrics not decided yet)
-
-- RQ3 -> by proposing a hetegenority of passenger type (stationary and non-stationary) -> and why adopt DDCM framework? -> the urgency is "Pedestrian must exist in continuous space given the <mark>fundamental interactions</mark> among pedestrians, while holding consumer surplus as an output of performance indicator of the study (requiring dynamic discrete choice framework)."
+- RQ3 -> by proposing a hetegenority of passenger type (stationary and non-stationary) -> and why adopt DDCM framework? -> the urgency is "Pedestrian must exist in continuous space given the <mark>fundamental interactions</mark> among pedestrians, while holding more macroscopic performance metrics as an output (requiring dynamic discrete choice framework)."
 
 - Considering the possibility of choosing Jakarta public transport network as a case study examining passengers dynamics (across different public transport maybe BRT, local train).
 
