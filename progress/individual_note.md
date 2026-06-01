@@ -153,7 +153,7 @@ Based on the above-mentioned of the sub-objective, the research question can be 
 - RQ1 -> Provide more elaboration the academical logic behind why come up with RQ1.
     - At-this-moment -> microscopic and macroscopic problem to assess public transport performance within observed record-data through passenger dynamics lens -> emphasizing assessment to observed public transport dynamics through video-record data by generating microscopic and macroscopic metrics (metrics not decided yet and need more elaboration).
 
-- RQ2 -> Provide more elaboration the academical logic behind why come up with RQ1 -> examining perceived attitudes and perceptions with differentiate passenger state type (when passenger is in stationary condition and non-stationary)
+- RQ2 -> Provide more elaboration the academical logic behind why come up with RQ2 -> examining perceived attitudes and perceptions with differentiate passenger state type (when passenger is in stationary condition and non-stationary)
 
 - RQ3 -> by proposing a hetegenority of passenger type (stationary and non-stationary) -> and why adopt DDCM framework? -> the urgency is "Pedestrian must exist in continuous space given the <mark>fundamental interactions</mark> among pedestrians, while holding more macroscopic performance metrics as an output (requiring dynamic discrete choice framework)."
 
