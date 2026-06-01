@@ -93,6 +93,11 @@ List to expand understanding
 
 ## 31/05
 
+$\colorbox{grey}{What I did within this two weeks}$
+
+- Understanding on 
+- Considering two type of state passengers type during boarding-alighting process
+
 ### Developing alternative framework incorporating passengers interactions between passenger type during boarding and alighting process  
 
 - This study focuses on the public transport operation, specifically during boarding and alighting process.
@@ -141,9 +146,20 @@ List to expand understanding
 
 Based on the above-mentioned of the sub-objective, the research question can be indicated as follows:
 
-(1) How do passengers’ attitudes and perceptions influence their movement behavior in crowded public transport?
+(RQ1) How do passengers’ attitudes and perceptions influence their movement behavior in crowded public transport?
 
-(2) What pedestrian movement patterns can be observed in crowded public transport using video-recorded data at microscopic and macroscopic levels?
+(RQ2) What pedestrian movement patterns can be observed in crowded public transport using video-recorded data at microscopic and macroscopic levels?
 
-(3) What alternative framework can better represent interactions among different passenger types during boarding and alighting in crowded public transport?
+(RQ3) What alternative framework can better represent interactions among different passenger types during boarding and alighting in crowded public transport?
+
+<u>What I want to do within this week</u>
+
+
+- Provide more elaboration the logic research behind for RQ1 -> examining perceived attitudes and perceptions with differentiate passenger state type (when passenger is in stationary condition and non-stationary)
+
+- Provide more elaboration the logic research behind why come up with RQ2 -> emphasizing assessment to observed public transport dynamics through video-record data by generating microscopic and macroscopic metrics (metrics not decided yet)
+
+- RQ3 -> by proposing a hetegenority of passenger type (stationary and non-stationary) -> and why adopt DDCM framework? -> the urgency is "Pedestrian must exist in continuous space given the <mark>fundamental interactions</mark> among pedestrians, while holding consumer surplus as an output of performance indicator of the study (requiring dynamic discrete choice framework)."
+
+- Considering the possibility of choosing Jakarta public transport network as a case study examining passengers dynamics (across different public transport maybe BRT, local train).
 
