@@ -107,7 +107,7 @@ List to expand understanding
 
 - This study focuses on the public transport operation, specifically during boarding and alighting process.
 - In a crowd, the behavior of each pedestrian is different, since it severely influences the movement characteristics, thus, developing crowd model by implementing multiple pedestrian classes is essential ([Duives D.C.,Daamen W., Hoogendoorn S.P., 2013](https://doi.org/10.1016/j.trc.2013.02.005)).
-- Adopting from [Fujiwara, K., et al. (n.d.)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5163637) study, the key players/agents carrying out the process are introduced/proposed in my study (note this is assumed in crowding situation happened inside the car/vehicle in terms of public transport system following DPE rule *Disembarking Precedes Embarking* when boarding-alighting process according to [Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279)):
+- Adopting from [Fujiwara, K., et al. (n.d.)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5163637) study, the key players/agents carrying out the process are introduced/proposed in my study (note this is assumed in crowding situation happened inside the car/vehicle in terms of public transport system following DPE rule *Disembarking Precedes Embarking* when boarding-alighting process (meaning in compliance condition) according to [Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279)):
 
 |||Staying|Staying|
 |--|---|------|------|
