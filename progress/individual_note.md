@@ -187,13 +187,12 @@ Related to the approach to model pedestrian dynamics, [Seriani and Fernandez, (2
 
  The interactions might be occurred between each passenger type during boarding and alighting process are described as follows:
 
-<mark><u> to be continued</u></mark>
-
-|||Staying|Staying|
-|--|---|------|------|
-||**State**|Passenger stay inside the car $(PC_{s})$|Passenger stay on the platform waiting for boarding process $(PP_{s})$|
-|**Moving**|Passenger alighting $(PA_{m})$|Interaction = $PC_{s}$ might adjust the position to allow $PA_{m}$ prepare for alighting|Interaction = $PA_{m}$ moves on to the platform while avoiding $PP_{s}$ standing on the platform, $PP_{s}$ might adjust the location |
-|**Moving**|Passenger boarding $(PB_m)$|Interaction = $PB_{m}$ moves into trains looking for space to stand, $PC_{s}$ might adjust the position giving space for $PB_{m}$| *not sure yet*
+||Passenger stay inside the car $(PC_{s})$|Passenger stay on the platform waiting for boarding process $(PP_{s})$|Passenger alighting $(PA_{m})$|Passenger boarding $(PB_m)$|
+|--|---|------|------|-----|
+|**Passenger stay inside the car** $(PC_{s})$|*not decided yet*|na|*has decided*|*has decided*|
+|**Passenger stay on the platform waiting for boarding process** $(PP_{s})$|na|*not decided yet*|Interaction = $PA_{m}$ moves on to the platform while avoiding $PP_{s}$ standing on the platform, $PP_{s}$ might adjust the location|*similar agent*|
+|**Passenger alighting** $(PA_{m})$|Interaction = $PC_{s}$ might adjust the position to allow $PA_{m}$ prepare for alighting|*has decided*|Interaction = Leader-Follower|*since DPE there is no interaction*|
+|**Passenger boarding** $(PB_m)$|Interaction = $PB_{m}$ moves into trains looking for space to stand, $PC_{s}$ might adjust the position giving space for $PB_{m}$|*similar agent*|*since DPE there is no interaction*|Interaction = Leader-Follower|
 
 
 
