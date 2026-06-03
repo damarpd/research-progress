@@ -97,7 +97,7 @@ List to expand understanding
 
 ## 31/05
 
-## Current situation
+### Current situation
 
 - Understanding on [Fujiwara, K., et al. (n.d.)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5163637)
 - Proposed two type of state passengers type during boarding-alighting process -> defined interactions between passengers state type. 
@@ -148,14 +148,23 @@ Based on the above-mentioned of the sub-objective, the research question can be 
 
 (RQ3) What alternative framework can better represent interactions among different passenger types during boarding and alighting in crowded public transport? -> develop alternative framework with proposed passengers state type (stationary and non-stationary)
 
-<u>What I want to do within this week</u>
+### What I want to do within this week
 
 - RQ1 -> Provide more elaboration the academical logic behind why come up with RQ1.
     - At-this-moment -> microscopic and macroscopic problem to assess public transport performance within observed record-data through passenger dynamics lens -> emphasizing assessment to observed public transport dynamics through video-record data by generating microscopic and macroscopic metrics (metrics not decided yet and need more elaboration).
 
 - RQ2 -> Provide more elaboration the academical logic behind why come up with RQ2 -> examining perceived attitudes and perceptions with differentiate passenger state type (when passenger is in stationary condition and non-stationary)
 
-- RQ3 -> by proposing a hetegenority of passenger type (stationary and non-stationary) -> and why adopt DDCM framework? -> the urgency is "Pedestrian must exist in continuous space given the <mark>fundamental interactions</mark> among pedestrians, while holding more macroscopic performance metrics as an output (requiring dynamic discrete choice framework)."
+- RQ3 -> by proposing a hetegenority of passenger type (stationary and non-stationary) -> and why adopt DDCM framework? -> the urgency is "Pedestrian must exist in continuous space given the <mark>fundamental interactions</mark> among pedestrians, while holding more macroscopic performance metrics as an output (requiring dynamic discrete choice framework)".
 
 - Considering the possibility of choosing Jakarta public transport network as a case study examining passengers dynamics (across different public transport maybe BRT, local train).
+
+## 03/06
+
+### Current situation
+
+- Provide research story
+- Provide more elaboration on why come up with RQ1, RQ2, and RQ3
+
+### 
 
