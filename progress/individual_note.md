@@ -176,11 +176,27 @@ Related to the approach to model pedestrian dynamics, [Seriani and Fernandez, (2
 
  Individual interactions between pedestrian, or passenger in case of public transport, is essential because it has different behavior across passenger type during the boarding and alighting process. According to previous study, the behavior of each pedestrian is different, since it severely influences the movement characteristics, thus, developing crowd model by implementing multiple pedestrian classes is essential ([Duives D.C.,Daamen W., Hoogendoorn S.P., 2013](https://doi.org/10.1016/j.trc.2013.02.005)). Accordingly, this study proposes multiple pedestrian type, that might have different type of behavior during boarding and alighting process, to be considered to the further examination of pedestrian dynamics. The passenger type can be separated into two categories of the state, namely non-stationary and stationary. 
 
- The passenger type comprises:
+ The passenger category, during the boarding and alighting process, depends on each state, are described as follows:
 
  |State|Type|Represented by|
  |-----|----|--------------|
  |Non-stationary|Passenger alighting|$(PA_{m})$|
+ ||Passenger boarding |$(PB_{m})$|
+ |Stationary|Passenger stay inside the car |$(PC_{s})$|
+ ||Passenger stay on the platform waiting for boarding process |$(PP_{s})$|
+
+ The interactions might be occurred between each passenger type during boarding and alighting process are described as follows:
+
+<mark><u> to be continued</u></mark>
+
+|||Staying|Staying|
+|--|---|------|------|
+||**State**|Passenger stay inside the car $(PC_{s})$|Passenger stay on the platform waiting for boarding process $(PP_{s})$|
+|**Moving**|Passenger alighting $(PA_{m})$|Interaction = $PC_{s}$ might adjust the position to allow $PA_{m}$ prepare for alighting|Interaction = $PA_{m}$ moves on to the platform while avoiding $PP_{s}$ standing on the platform, $PP_{s}$ might adjust the location |
+|**Moving**|Passenger boarding $(PB_m)$|Interaction = $PB_{m}$ moves into trains looking for space to stand, $PC_{s}$ might adjust the position giving space for $PB_{m}$| *not sure yet*
+
+
+
 
 
 
