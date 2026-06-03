@@ -91,7 +91,7 @@ Building upon the literature review, this study proposes the research objective.
 List to expand understanding
 |Authors|Key finding|
 |---|---|
-|[Seriani and Fernandez, (2015)](https://doi.org/10.1016/j.trc.2015.02.003)|**Title:** Pedestrian traffic management of boarding and alighting in metro stations, **Key finding:** **Note from literature:** However, as the passenger demand increases, the dwell time becomes more dependent on boarding and alighting operations and “station dwell times are the major component of headways at short frequencies” (TRB, 2003: 5–19). The authors also argued that continous movement on pedestrian dynamics modelling ensure more realistic representations as the space is free from artificial restrictions, such as celss or grids in Cellular Automata approach|
+|[Seriani and Fernandez, (2015)](https://doi.org/10.1016/j.trc.2015.02.003)|**Title:** Pedestrian traffic management of boarding and alighting in metro stations, **Key finding:** **Note from literature:** However, as the passenger demand increases, the dwell time becomes more dependent on boarding and alighting operations and “station dwell times are the major component of headways at short frequencies” (TRB, 2003: 5–19). The authors also argued that continous movement on pedestrian dynamics modelling ensure more realistic representations as the space is free from artificial restrictions, such as cells or grids in Cellular Automata approach|
 
 
 
@@ -166,5 +166,23 @@ Based on the above-mentioned of the sub-objective, the research question can be 
 - Provide research story
 - Provide more elaboration on why come up with RQ1, RQ2, and RQ3
 
-### 
+### Reconstruction of the research story
+
+Boarding and alighting process is one of critical process in public transport operation. This kind of specific process has been extensively modeled by various approaches with passenger as a key player/agents involve in boarding and alighting process. These approaches cover social force model approach ([Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279), [Shen et.al., 2026)](https://doi.org/10.1016/j.simpat.2026.103260), [Li et.al., 2020](https://doi.org/10.1016/j.tra.2019.12.017)), Markov process ([Baali et.al., 2025](https://doi.org/10.1016/j.physa.2025.130942)). 
+
+<u>Rationale</u>
+
+Related to the approach to model pedestrian dynamics, [Seriani and Fernandez, (2015)](https://doi.org/10.1016/j.trc.2015.02.003) argued that continuous movement on pedestrian dynamics modelling ensure more realistic representations as the space is free from artificial restrictions, such as cells or grids in Cellular Automata approach. However, continuous model seem to be able to reproduce pedestrian movement, but the movements of the pedestrians are not directly related to decision-making processes of pedestrians ([Asano, Iryo & Kuwahara, 2009](https://link.springer.com/chapter/10.1007/978-1-4419-0820-9_28)). Additionaly, besides the decision processes of *individual pedestrians* is essential to model such situation, the decision processes of *pedestrians interacting with each other* should be considered to reproduce pedestrian flow, such as during the congested situations. 
+
+ Individual interactions between pedestrian, or passenger in case of public transport, is essential because it has different behavior across passenger type during the boarding and alighting process. According to previous study, the behavior of each pedestrian is different, since it severely influences the movement characteristics, thus, developing crowd model by implementing multiple pedestrian classes is essential ([Duives D.C.,Daamen W., Hoogendoorn S.P., 2013](https://doi.org/10.1016/j.trc.2013.02.005)). Accordingly, this study proposes multiple pedestrian type, that might have different type of behavior during boarding and alighting process, to be considered to the further examination of pedestrian dynamics. The passenger type can be separated into two categories of the state, namely non-stationary and stationary. 
+
+ The passenger type comprises:
+
+ |State|Type|Represented by|
+ |-----|----|--------------|
+ |Non-stationary|Passenger alighting|$(PA_{m})$|
+
+
+
+
 
