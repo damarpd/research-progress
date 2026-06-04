@@ -195,7 +195,7 @@ Related to the approach to model pedestrian dynamics, [Seriani and Fernandez, (2
 |**Passenger boarding** $(PB_m)$|Interaction = $PB_{m}$ moves into trains looking for space to stand, $PC_{s}$ might adjust the position giving space for $PB_{m}$|*similar agent*|*since DPE there is no interaction*|Interaction = Leader-Follower|
 
 
-
+Consumer Surplus in Ben Akiva Lerman 1985
 
 
 
