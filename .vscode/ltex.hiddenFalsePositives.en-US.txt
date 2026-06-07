@@ -1,1 +1,2 @@
 {"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QCollision avoidance with passenger alighting when preparing for stepping out of the car.\\E$"}
+{"rule":"PRP_MD_NN","sentence":"^\\QThis study will focusses on Individual interactions between pedestrian, or passenger in case of public transport, is essential because it has different behavior across passenger type during the boarding and alighting process.\\E$"}
