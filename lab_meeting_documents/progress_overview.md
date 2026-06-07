@@ -14,14 +14,9 @@ Alighting and boarding process is one of critical process in public transport op
 
 Additionally, in the methodological area of microscopic pedestrian modelling, [Chen,Xu, et.al, (2017)](https://doi.org/10.1080/01441647.2017.1396265) classified pedestrian dynamics models into two primary categories namely continuous model and discrete-based model. 
 
-~~On the one hand, large-scale events have received considerable scholarly attention due to their potential to disrupt public transport services. In the literature, such phenomena have been conceptualized using various terms, including *mega-events* ([Parkes et.al.,2016](https://doi.org/10.1016/j.tra.2016.07.006)), *disruption/service disruption* ([Pnevmatikou et.al,2015](https://link.springer.com/article/10.1007/s11116-015-9656-4); [Rahimi et.al.,2019](https://doi.org/10.1016/j.trd.2019.10.011)), *shock to the transport system* ([Jenelius E., and Mattsson, L.G.,2021](https://doi.org/10.1016/B978-0-08-102671-7.10719-5)), and *large-scale event* ([Kopsacheilis A., 2026](https://doi.org/10.1080/03081060.2026.2643729)). According to [Parkes et.al.,(2016)](http://dx.doi.org/10.1016/j.tra.2016.07.006), such phenomena are defined as event that draw substantial numbers of individuals to a location, placing the local environment and infrastructure under great pressure, and bringing disruption to residents. Moreover, [Parkes et.al.,(2016)](http://dx.doi.org/10.1016/j.tra.2016.07.006) added that trips generated during the London Olympic Games and Paralympic Games 2012 were geographically specific and contributed significant impact on major underground stations, which reported added significant loadings to the stations that already overcapacity.~~
-
-
-~~Among the continuous approaches, the Social Force Model (SFM), originally proposed by [Helbing, D., and Molnar, P.,(1995)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.51.4282), remains one of the most widely applied frameworks for simulating pedestrian dynamics. SFM has been explored to enhance the understanding of pedestrian dynamics accross various context, including open space such as sidewalks ([Siddhart, S.M.P. and Vedagiri, P., 2018](https://doi.org/10.1177/0361198118758673), [Zhao X., et.al., 2026](https://doi.org/10.3390/su18020746)), emergency situation ([Zhang, et.al.,2023](https://doi.org/10.1080/17538947.2023.2197261)), and metro transit system, speficifically during boarding and alighting process ([Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279))~~
 
 <u>Rationale of the study</u>
 
-~~This study expects to introduce novel insights into the field of microscopic pedestrian modeling by situating the proposed framework within the context of public transport operations during large-scale events. Such events are known to generate intense passenger crowding, which can exert direct and substantial pressure on system performance. Despite these conditions, existing modeling approaches have not adequately captured the complexity of passenger interactions under such disrupted and high-density scenarios.~~ 
 
 Most prior studies have primarily focused on passenger movements associated with entering and exiting vehicles during boarding and alighting processes ([Qu Y., et.al.,2019](https://doi.org/10.1016/j.physa.2019.121075), [Seriani and Fernandez, 2015](https://doi.org/10.1016/j.trc.2015.02.003)). In contrast, at this moment, only [Yining Jia, et.al.(2026)](https://doi.org/10.1016/j.physa.2026.131279) explicitly consider a categorization of metro passengers into three groups—boarding, alighting, and remaining on-board passengers. However, their analysis is situated within normal operating conditions, where remaining passengers are typically seated, as supported by controlled experimental settings by [Fu L., et.al., 2023](https://doi.org/10.1016/j.tust.2023.105362). This limits the applicability of existing findings to more complex and crowded real-world contexts.
 
@@ -29,19 +24,67 @@ The focus of this study is alighting and boarding process when public transport 
 
 Regarding the approach to model pedestrian dynamics, [Seriani and Fernandez, (2015)](https://doi.org/10.1016/j.trc.2015.02.003) argued that continuous movement on pedestrian dynamics modelling ensure more realistic representations as the space is free from artificial restrictions, such as cells or grids in Cellular Automata approach. However, continuous model seem to be able to reproduce pedestrian movement, but the movements of the pedestrians are not directly related to decision-making processes of pedestrians ([Asano, Iryo & Kuwahara, 2009](https://link.springer.com/chapter/10.1007/978-1-4419-0820-9_28)). Additionally, besides the decision processes of *individual pedestrians* is essential to model such situation, the decision processes of *pedestrians interacting with each other* should be considered to reproduce pedestrian flow, such as during the congested situations. 
 
-~~Accordingly, this study places particular emphasis on the dynamics of remaining on-board passengers under crowding conditions induced by large-scale events. In such contexts, these passengers are not passive occupants but actively engage in adaptive behaviors to accommodate boarding and alighting flows. This **adaptive mechanism**, which operates alongside conventional boarding and alighting dynamics, remains insufficiently explored in the literature. Understanding these interactions is critical, as adjustments made by on-board passengers can significantly influence passenger flow efficiency, dwell time, and overall operational performance. Notably, this phenomenon has received limited attention within the Social Force Model (SFM) framework.In addition, this study seeks to broaden the analytical perspective by incorporating a discrete behavioral modeling approach, introduced by [Robin, Th., et.al.,2009](https://doi.org/10.1016/j.trb.2008.06.010), thereby complementing continuous modeling frameworks and providing a more comprehensive understanding of passenger dynamics under complex and high-density conditions~~
+The passenger category, during the boarding and alighting process, depends on each state, are described as follows:
 
+ |State|Type|Represented by|
+ |-----|----|--------------|
+ |Non-stationary|Passenger alighting|$(PA_{m})$|
+ ||Passenger boarding |$(PB_{m})$|
+ |Stationary|Passenger stay inside the car |$(PC_{s})$|
+ ||Passenger stay on the platform waiting for boarding process |$(PP_{s})$|
 
 <u>Research objective</u>
 
-Building upon the literature review, this study proposes the research objective. The aim of this study is to examine the public transit user adapting behavior under the large-scale event-induced crowding situation.
-
+Building upon the literature review, this study proposes the research objective. The aim of this study is to examine passengers behavior during public transport with the consideration of non-stationary and stationary passengers. 
 
 <u>Research question</u>
 
-(1) How do the adaptive behaviors of passengers influence flow dynamics and operational performance (e.g., dwell time and congestion) during boarding and alighting processes under large-scale event–induced crowding conditions?
+(RQ1) How do passengers’ attitudes and perceptions influence their movement behavior in crowded-situated public transport, when they are in stationary state and non-stationary state?
 
-(2) *not decided (but related to discrete approach)*
+(RQ2) What alternative framework can better represent the alighting and boarding process, with the consideration of different passenger type, non-stationary and stationary, incorporated to the examination during crowded-situated in public transport?
+
+<u>Proposed idea</u>
+
+The interactions might be occurred between each passenger type during boarding and alighting process are described as follows:
+
+||Passenger stay inside the car $(PC_{s})$|Passenger stay on the platform waiting for boarding process $(PP_{s})$|Passenger alighting $(PA_{m})$|Passenger boarding $(PB_m)$|
+|--|---|------|------|-----|
+|**Passenger stay inside the car** $(PC_{s})$|*not decided yet*|na|(5)|(9)|
+|**Passenger stay on the platform waiting for boarding process** $(PP_{s})$|na|*not decided yet*|(6)|*similar agent*|
+|**Passenger alighting** $(PA_{m})$|(1)|(3)|(2) and (4)|*since DPE there is no interaction*|
+|**Passenger boarding** $(PB_m)$|(7)|*similar agent*|*since DPE there is no interaction*|(8)|
+
+Following DPE rule -> First disembarking process/ alighting -> then embarking process/ boarding
+
+Assume within crowding condition
+
+### Alighting process
+
+Passenger alighting $(PA_{m})$
+
+- (1) Collision avoidance with passengers inside the car $(PC_{s})$ since preparing to step out of car
+- (2) Leader follower with another passenger alighting.
+- (3) Collision avoidance with passenger waiting at the platform preparing for boarding $(PP_{s})$. 
+- (4) Collision avoidance with another passenger alighting at the arriving platform.
+
+
+Passenger stay inside the car $(PC_{s})$
+- (5) Collision avoidance with passenger alighting when preparing for stepping out of the car.
+
+Passenger stay on the platform waiting for boarding process $(PP_{s})$
+
+- (6) Collision avoidance with passenger alighting stepping in to arriving platform. 
+
+### Boarding process
+
+Passenger boarding $(PB_{m})$
+
+- (7) Collision avoidance with passenger inside the car $(PC_{s})$ when stepping into the car looking for space for stand.
+- (8) Leader-follower interaction within passenger boarding
+
+Passenger stay inside the car $(PC_{s})$
+
+- (9) Collision avoidance since they have to adjust the position when passenger boarding $(PB_{m})$ coming in.
 
 
 
