@@ -194,6 +194,8 @@ Related to the approach to model pedestrian dynamics, [Seriani and Fernandez, (2
 |**Passenger alighting** $(PA_{m})$|Interaction = $PC_{s}$ might adjust the position to allow $PA_{m}$ prepare for alighting|*has decided*|Interaction = Leader-Follower|*since DPE there is no interaction*|
 |**Passenger boarding** $(PB_m)$|Interaction = $PB_{m}$ moves into trains looking for space to stand, $PC_{s}$ might adjust the position giving space for $PB_{m}$|*similar agent*|*since DPE there is no interaction*|Interaction = Leader-Follower|
 
+<u>to be continued</u> for 07/06
+
 
 Consumer Surplus in Ben Akiva Lerman 1985
 
