@@ -197,7 +197,46 @@ Related to the approach to model pedestrian dynamics, [Seriani and Fernandez, (2
 <u>to be continued</u> for 07/06
 
 
-Consumer Surplus in Ben Akiva Lerman 1985
+- review about Consumer Surplus and its utilization as a performance indicator or metrics in the pedestrian modeling-related context of pedestrian modeling 
+- review from original Ben Akiva and Lerman 1985
+- detail interaction between passengers type both in the context of boarding and alighting process
+- the logic behind why we argue to adopt DDCM framework. 
+
+
+## 07/06
+
+Following DPE rule -> First disembarking process/ alighting -> Second embarking process/ boarding
+
+Assume within crowding condition
+
+### Alighting process
+
+Passenger alighting $(PA_{m})$
+
+- Collision avoidance with passengers inside the car $(PC_{s})$ since preparing to step out of car.
+- Leader follower with another passenger alighting.
+- Collision avoidance with passenger waiting at the platform preparing for boarding $(PP_{s})$. 
+- Collision avoidance with another passenger alighting at the arriving platform.
+
+
+Passenger stay inside the car $(PC_{s})$
+- Collision avoidance with passenger alighting when preparing for stepping out of the car.
+
+
+### Boarding process
+
+Passenger boarding $(PB_{m})$
+
+- Collision avoidance with passenger inside the car $(PC_{s})$ when stepping into the car looking for space for stand.
+- Leader-follower interaction within passenger boarding
+
+Passenger stay inside the car $(PC_{s})$
+
+- Collision avoidance since they have to adjust the position when passenger boarding $(PB_{m})$ coming in.
+
+
+
+
 
 
 
