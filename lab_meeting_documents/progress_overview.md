@@ -93,12 +93,12 @@ Passenger stay inside the car $(PC_{s})$
 
 |Type of gap|Identified gap|Study approach|Academic contribution|Practical contribution|
 |---------|----------|-----------|------------|-------------|
-|Empirical gap|Lack of empirical or simulation-based studies on **passenger dynamics** during the large-scale event-induced crowding situated on public transport system|Examines passenger dynamics under high-density conditions|Provides new evidence on passenger behavior and system performance in disrupted scenarios|By understanding how remaining on-board passengers adapt (e.g., repositioning, yielding space), operators can design better boarding/alighting procedures or crowd management during the operations|
-|Theoretical gap|The SFM emphasizes individual movement/dynamics by forces but underrepresent on adaptive behavior on remaining passengers during the boarding-alighting process|Introduces adaptation mechanism of on-board passengers within pedestrian dynamics framework|Extends SFM by incorporating adaptive behavior in high density context|*tbd*|
+|Empirical gap|Lack of empirical or simulation-based studies on passenger dynamics in public transport that incorporate passenger states (non-stationary and stationary).|Examines passenger dynamics under high-density conditions by incorporating different passenger states.|Provides new evidence on passenger behavior and system performance in crowded scenarios.|By accounting for different passenger states, operators can design more efficient alighting and boarding procedures as well as improved crowd management strategies.|
+|Theoretical gap|Existing pedestrian modeling frameworks remain limited in describing pedestrian dynamics by integrating decision-making behavior within continuous spaces with taking passenger heterogeneity into account, particularly in high density transit context|Develops a continuous-space pedestrian modeling framework that integrates behavioral decision-making by accounting for passenger heterogeneity.|Establishes a state-aware modeling framework that could represent human interaction during public transport operation||
 
 
 ## Literature Review
-Pedestrian dynamics model can be devided by two categories namely continous model and discrete-based model ([Chen,Xu, et.al, 2017](https://doi.org/10.1080/01441647.2017.1396265)). This study focusses on Below the synthetic literature review of the improvement of the social force model based on previous studies in the past recent years.
+Pedestrian dynamics model can be divided by two categories namely continuous model and discrete-based model ([Chen,Xu, et.al, 2017](https://doi.org/10.1080/01441647.2017.1396265)). This study focusses on Below the synthetic literature review of the improvement of the social force model based on previous studies in the past recent years.
 
 |Topics|Proposed|Key feature|Data collection method|Context (location)|References|
 |------|--------|------------|--------|:-------:|--------|
