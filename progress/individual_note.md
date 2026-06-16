@@ -168,7 +168,7 @@ Based on the above-mentioned of the sub-objective, the research question can be 
 
 ### Reconstruction of the research story
 
-Alighting and boarding process is one of critical process in public transport operation. This kind of specific process has been extensively modeled by various approaches with passenger as a key player/agents involve in boarding and alighting process. These approaches cover social force model approach ([Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279), [Shen et.al., 2026](https://doi.org/10.1016/j.simpat.2026.103260), [Li et.al., 2020](https://doi.org/10.1016/j.tra.2019.12.017)), Markov process ([Baali et.al., 2025](https://doi.org/10.1016/j.physa.2025.130942)). 
+Alighting and boarding process is one of critical process in public transport operation. This kind of specific process has been extensively modeled by various approaches with passenger as a key player/agents involve in boarding and alighting process. These approaches cover social force model approach ([Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279), [Shen et.al., 2026 (a)](https://doi.org/10.1016/j.simpat.2026.103260), [Li et.al., 2020](https://doi.org/10.1016/j.tra.2019.12.017)), Markov process ([Baali et.al., 2025](https://doi.org/10.1016/j.physa.2025.130942)). 
 
 <u>Rationale</u>
 
