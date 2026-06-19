@@ -235,7 +235,13 @@ Passenger stay inside the car $(PC_{s})$
 - Collision avoidance since they have to adjust the position when passenger boarding $(PB_{m})$ coming in.
 
 
+## 19/06
 
+### Key finding from Qu et al (2019)
+
+- Alighting passengers experience stronger time pressure than boarding passengers, since missing their stop means having to travel back from the next station — this urgency drives them to move faster and more consistently during the alighting process [Qu et al (2019)](https://doi.org/10.1016/j.physa.2019.121075).
+- Orderly behavior at the bottleneck is hardest to maintain when the alighting and boarding groups are similarly sized, since both groups then compete for the door at the same time [Qu et al (2019)](https://doi.org/10.1016/j.physa.2019.121075).
+- Time waste at the bottleneck peaks at moderate disorder, since frequent switching between alighting and boarding directions is more disruptive than either a chaotic mixed flow (low disorder) or a well-ordered turn-taking flow (high disorder), both of which produce shorter and more stable headways; this moderate-disorder effect is mainly driven by the boarding headway rather than the alighting headway [Qu et al (2019)](https://doi.org/10.1016/j.physa.2019.121075).
 
 
 
