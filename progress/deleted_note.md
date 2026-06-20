@@ -8,3 +8,25 @@
 ~~Accordingly, this study places particular emphasis on the dynamics of remaining on-board passengers under crowding conditions induced by large-scale events. In such contexts, these passengers are not passive occupants but actively engage in adaptive behaviors to accommodate boarding and alighting flows. This **adaptive mechanism**, which operates alongside conventional boarding and alighting dynamics, remains insufficiently explored in the literature. Understanding these interactions is critical, as adjustments made by on-board passengers can significantly influence passenger flow efficiency, dwell time, and overall operational performance. Notably, this phenomenon has received limited attention within the Social Force Model (SFM) framework.In addition, this study seeks to broaden the analytical perspective by incorporating a discrete behavioral modeling approach, introduced by [Robin, Th., et.al.,2009](https://doi.org/10.1016/j.trb.2008.06.010), thereby complementing continuous modeling frameworks and providing a more comprehensive understanding of passenger dynamics under complex and high-density conditions~~
 
 (RQ1) How do the adaptive behaviors of passengers influence flow dynamics and operational performance (e.g., dwell time and congestion) during boarding and alighting processes under large-scale event–induced crowding conditions?
+
+Below related to large-event scale type:
+|Large-scale event type|Event year|Host country/city|Key features|References|
+|----------------------|:--------:|:---------------:|------------|----------|
+|FIFA World cup|2022|Qatar|this study examining the impact of the FIFA World Cup 2022 and evaluating the effectiveness of various TDM measures on traveler behavior across different sociodemographic segments|[Mohammed, A., et.al. (2025)](https://doi.org/10.1016/j.cstp.2025.101469)|
+
+|Topics|Proposed|Key feature|Data collection method|Context (location)|References|
+|------|--------|------------|--------|:-------:|--------|
+|Social force model|Original Social Force Model|This framework identify pedestrian motion adopting Newton's second law, which contains three forces determining pedestrian motion||-|[Helbing D., and Molnar P. (1995)](https://doi.org/10.1103/PhysRevE.51.4282)|
+|||Three rules are acceleration term (self-driving force), repulsive efect toward other pedestrian and borders, such as building and wall etc, and attractive effect force||||
+||Social Force Model Considering Pedestrian Characteristics and Behavior (SFMPCB)|Incorporating social characteristic of pedestrian specifically gender||Sidewalk (in Mumbai, India)|[Siddhart, S.M.P. and Vedagiri, P., (2018)](https://doi.org/10.1177/0361198118758673)|
+|||Gender characteristic is represented as reaction time $\tau_{m/f}$||||
+|||Conducted in normal pedestrian behavior||||
+||Improved Social Force Model (ISFM)|Simulating pedestrian motion (evacuation) during subway station fire incident||Subway station|[Zhang, et.al.,2023](https://doi.org/10.1080/17538947.2023.2197261)|
+|||Proposed model which take 'environmental role' $(f_{ie})$ and a 'subjective initiative' $(f_{ig})$ into account||||
+||Modified Social Force Model (MSFM)|This proposed-model explored passenger dynamics during **boarding and alighting in metro transit system**||Metro transit system|[Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279)|
+|||MSFM considered eliptical agents, rotational dynamics, and specific DPE (Disembarking Preceed Embarking) rule.|||
+|||A new attraction force is proposed to MSFM $(f_{ig})$ to define behavior of following other pedestrians and avoiding obstacles|||
+||Enhanced Social Force Model|This study developed a simulation methodology that better reflects real pedestrian behavior particularly on group coordination and avoidance behaviors, including three proposed features for improving original model||Pedestrian path at commercial street in Nanchang City|[Zhao X., et.al., 2026](https://doi.org/10.3390/su18020746)|
+|||**Pedestrian effective binocular vision range** is limited at 120 $^o$, meaning that pedestrians can only perceive others within 120 $^o$ sector centered on their walking direction||||
+|||Improvement made by incorporating **group-type categorization** -> improved pairing behavior model-> this study proposed heterogenous form of group pedestrian into the model by varying pedestrian social relationship denoted as $T_g$; $T_{g} \in (T_{gfd}, T_{gcl}, T_{gfy}, T_{ged})$||||
+|||**Evasion maneuveurs**-> collective avoidance forces meaning that a group of pedestrian preceed avoidance maneuver collectively comprising (a) unified avoidance and (b) inter-weavering avoidance -> this study proposed as accompanying pedestrian avoidance force $(f_{gr})$||||
