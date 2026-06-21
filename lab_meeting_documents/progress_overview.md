@@ -52,13 +52,10 @@ by their state during the boarding and alighting process:
 
 #### Sub argument 2
 
+Establishing that passenger types are behaviorally distinct, as evidenced by Qu et al. (2019), raises a deeper question that existing studies have not addressed: what drives these differences? This question cannot be answered by physical simulation models, which are designed to reproduce movement trajectories but not to explain the decision processes that generate them ([Asano, Iryo and Kuwahara, 2009](https://link.springer.com/chapter/10.1007/978-1-4419-0820-9_28)). Understanding the mechanism requires shifting the analytical lens from physical parameters to the attitudinal and perceptual 
+constructs that underlie passenger decision-making.
 
-Physical force-based models 
-reproduce movement trajectories but do not link those trajectories to the decision-making processes that generate them ([Asano, Iryo and Kuwahara, 2009](https://link.springer.com/chapter/10.1007/978-1-4419-0820-9_28)). The urgency asymmetry between $PA_m$ and $PB_m$ documented by Qu et al. (2019) is not a physical difference, both passenger types occupy similar body sizes and move through the same spatial environment. The difference is motivational: each type holds different attitudes toward time cost, social norm compliance, and spatial risk, and these attitudes translate into different decision thresholds for movement behaviors such as yielding, accelerating, and positioning.
 
-This motivational distinctness extends beyond the alighting-boarding contrast when the full typology proposed in this study is considered. Stationary passengers ($PC_s$ and $PP_s$) are governed by crowding discomfort tolerance and anticipatory spatial adjustment rather than locomotion goals, a behavioral profile that diverges fundamentally from that of non-stationary passengers, and that existing models have not yet characterized. The behavior of each pedestrian differs significantly, since it severely influences movement characteristics; thus, developing 
-crowd models that implement multiple pedestrian classes is essential 
-([Duives, Daamen and Hoogendoorn, 2013](https://doi.org/10.1016/j.trc.2013.02.005)).
 
 
 #### Sub argument 3: Existing modeling frameworks are insufficient for representing heterogeneous passenger dynamics in continuous space
