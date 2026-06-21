@@ -20,41 +20,9 @@ Critically, the crowded condition introduces a dimension of complexity that exte
 
 #### Sub argument 1: Limited consideration of passenger typology in existing studies
 
-Most prior studies have primarily focused on passenger movements 
-associated with entering and exiting vehicles during boarding and 
-alighting processes ([Qu Y., et.al., 2019](https://doi.org/10.1016/j.physa.2019.121075); 
-[Seriani and Fernandez, 2015](https://doi.org/10.1016/j.trc.2015.02.003)). 
-In these studies, passengers are treated as a homogeneous moving mass, 
-without distinguishing between those who are actively alighting, actively 
-boarding, or remaining stationary within the vehicle or on the platform. 
-This homogeneous treatment is adequate under low-density conditions, where 
-stationary passengers pose minimal obstruction to moving ones. However, it 
-becomes insufficient under crowded conditions, where stationary passengers 
-are no longer passive obstacles but active participants whose spatial 
-adjustments and yielding decisions directly shape the flow around them.
+Most prior studies have primarily focused on passenger movements associated with entering and exiting vehicles during boarding and alighting processes ([Qu Y., et.al., 2019](https://doi.org/10.1016/j.physa.2019.121075); [Seriani and Fernandez, 2015](https://doi.org/10.1016/j.trc.2015.02.003)). In these studies, passengers are treated as a homogeneous moving mass, without distinguishing between those who are actively alighting, actively boarding, or remaining stationary within the vehicle or on the platform. This homogeneous treatment is adequate under low-density conditions, where stationary passengers pose minimal obstruction to moving ones. However, it becomes insufficient under crowded conditions, where stationary passengers are no longer passive obstacles but active participants whose spatial adjustments and yielding decisions directly shape the flow around them.
 
-Empirical evidence already indicates that even within the subset of 
-actively moving passengers, behavioral profiles differ systematically 
-between types. As platform and vehicle occupancy increases during peak 
-hours, passengers experience intensifying time pressure to complete their 
-trip on schedule. Under sufficiently high time pressure, passengers tend 
-to shift from conservative, rule-following behavior toward more 
-competitive behavior, which can escalate into conflicts at the train door 
-([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). 
-Critically, this pressure does not affect all passenger types equally. 
-An asymmetry exists in the consequences of missing the door: a boarding 
-passenger who misses the door merely waits for the next train at the same 
-station, whereas an alighting passenger who misses the door must travel 
-to the next station and return, incurring a substantially higher cost 
-([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). This 
-asymmetry produces systematically distinct behavioral profiles — alighting 
-passengers exhibit greater urgency, moving faster and more consistently 
-throughout the process, while boarding passengers exhibit comparatively 
-more variable and hesitant movement patterns 
-([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). If 
-behavioral distinctness is already observable between alighting and 
-boarding passengers alone, the case for distinguishing passenger types 
-in simulation models becomes empirically unavoidable.
+Empirical evidence already indicates that even within the subset of actively moving passengers, behavioral profiles differ systematically between types. As platform and vehicle occupancy increases during peak hours, passengers experience intensifying time pressure to complete their trip on schedule. Under sufficiently high time pressure, passengers tend to shift from conservative, rule-following behavior toward more competitive behavior, which can escalate into conflicts at the train door ([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). Critically, this pressure does not affect all passenger types equally. An asymmetry exists in the consequences of missing the door: a boarding passenger who misses the door merely waits for the next train at the same station, whereas an alighting passenger who misses the door must travel to the next station and return, incurring a substantially higher cost ([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). This asymmetry produces systematically distinct behavioral profiles, leading to alighting passengers exhibit greater urgency, moving faster and more consistently throughout the process, while boarding passengers exhibit comparatively more variable and hesitant movement patterns ([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). If behavioral distinctness is already observable between alighting and boarding passengers alone, the case for distinguishing passenger types in simulation models becomes empirically unavoidable.
 
 Yet this distinction remains absent from most existing modeling 
 frameworks. Only [Yining Jia, et.al. (2026)](https://doi.org/10.1016/j.physa.2026.131279) 
@@ -86,9 +54,9 @@ by their state during the boarding and alighting process:
 
 
 Physical force-based models 
-reproduce movement trajectories but do not link those trajectories to the decision-making processes that generate them ([Asano, Iryo and Kuwahara, 2009](https://link.springer.com/chapter/10.1007/978-1-4419-0820-9_28)). The urgency asymmetry between $PA_m$ and $PB_m$ documented by Qu et al. (2019) is not a physical difference — both passenger types occupy similar body sizes and move through the same spatial environment. The difference is motivational: each type holds different attitudes toward time cost, social norm compliance, and spatial risk, and these attitudes translate into different decision thresholds for movement behaviors such as yielding, accelerating, and positioning.
+reproduce movement trajectories but do not link those trajectories to the decision-making processes that generate them ([Asano, Iryo and Kuwahara, 2009](https://link.springer.com/chapter/10.1007/978-1-4419-0820-9_28)). The urgency asymmetry between $PA_m$ and $PB_m$ documented by Qu et al. (2019) is not a physical difference, both passenger types occupy similar body sizes and move through the same spatial environment. The difference is motivational: each type holds different attitudes toward time cost, social norm compliance, and spatial risk, and these attitudes translate into different decision thresholds for movement behaviors such as yielding, accelerating, and positioning.
 
-This motivational distinctness extends beyond the alighting-boarding contrast when the full typology proposed in this study is considered. Stationary passengers ($PC_s$ and $PP_s$) are governed by crowding discomfort tolerance and anticipatory spatial adjustment rather than locomotion goals — a behavioral profile that diverges fundamentally from that of non-stationary passengers, and that existing models have not yet characterized. The behavior of each pedestrian differs significantly, since it severely influences movement characteristics; thus, developing 
+This motivational distinctness extends beyond the alighting-boarding contrast when the full typology proposed in this study is considered. Stationary passengers ($PC_s$ and $PP_s$) are governed by crowding discomfort tolerance and anticipatory spatial adjustment rather than locomotion goals, a behavioral profile that diverges fundamentally from that of non-stationary passengers, and that existing models have not yet characterized. The behavior of each pedestrian differs significantly, since it severely influences movement characteristics; thus, developing 
 crowd models that implement multiple pedestrian classes is essential 
 ([Duives, Daamen and Hoogendoorn, 2013](https://doi.org/10.1016/j.trc.2013.02.005)).
 

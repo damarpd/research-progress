@@ -3,7 +3,14 @@ This file is created as compilation of notes derived from each `weekly progress`
 
 ## Table of content
 
+- [2026-04-03.md file](#2026-04-03md-file)
+- [2026-04-11.md file](#2026-04-11md-file)
+- [27/04](#2704)
+- [09/05 -10/05](#0905--1005)
 - [Research progress per 31/05](#3105)
+- [03/06](#0306)
+- [07/06](#0706)
+- [19/06](#1906)
 
 ## 2026-04-03.md file
 ### Notes for new terms:
