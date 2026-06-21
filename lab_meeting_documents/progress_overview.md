@@ -7,30 +7,99 @@
 
 ### General problem and background study
 
-Rapid urbanization has become a defining feature of modern cities. To facilitate daily mobility for various trip purposes, such as commuting to work and school, the use of public transportation has been increasingly promoted. This trend has led to a growing demand for public transport systems, particularly metro rail and city bus services, within urban contexts. During off-peak hours, operational issues such as delays are relatively uncommon. However, as passenger demand intensifies during peak periods, such issues become more prevalent. In particular, critical processes such as passenger movement/dynamics within alighting and boarding during the public transport operations can serve as key contributors to these delays. During peak hours, congestion on both platforms and inside trains often forces passengers to wait for multiple trains before they are able to board, and the longer this wait becomes, the stronger the time pressure passengers experience to complete their trip on time; under sufficiently high time pressure, passengers tend to shift from conservative, rule-following behavior toward more radical, competitive behavior, which can escalate into conflicts at the train door ([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). This time pressure is further amplified by an asymmetry in the consequences of missing the door: a boarding passenger who misses the door merely waits for the next train at the same station, whereas an alighting passenger who misses the door must travel to the next station and return, incurring a substantially higher cost ([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). This asymmetry explains why alighting passengers tend to exhibit greater urgency than boarding passengers, moving faster and more consistently throughout the alighting process ([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)), illustrating how individual passenger behavior at the platform-train interface can directly shape the efficiency of the boarding and alighting process.
+Rapid urbanization has become a defining feature of modern cities globally. To facilitate daily mobility for various trip purposes, such as commuting to work and school, the use of public transportation has been increasingly promoted. This trend has led to a growing demand for public transport systems, particularly metro rail and city bus services, within urban contexts. As passenger demand intensifies, particularly during peak periods, 
+maintaining reliable and efficient operations becomes increasingly 
+challenging.
 
-Alighting and boarding process is one of critical process in public transport operation. This kind of specific process has been extensively modeled by various approaches with passenger as a key player/agents involve in alighting and boarding process. These approaches cover social force model approach ([Yining Jia, et.al.,2026](https://doi.org/10.1016/j.physa.2026.131279), [Shen et.al., 2026](https://doi.org/10.1016/j.simpat.2026.103260), [Li et.al., 2020](https://doi.org/10.1016/j.tra.2019.12.017)), Markov process ([Baali et.al., 2025](https://doi.org/10.1016/j.physa.2025.130942)). 
+Among the various operational processes in public transport, the boarding and alighting process at stops and stations is one of the most critical determinants of service efficiency. This process directly governs dwell time <mark>— the duration a vehicle remains stationary at a stop — </mark> which accumulates across stations and propagates into schedule delays system-wide. During off-peak hours, this process proceeds with relative ease. However, under peak-hour conditions, the convergence of high passenger volumes at 
+the platform-vehicle interface creates congestion that disrupts the orderly flow of alighting and boarding.
 
-Additionally, in the methodological area of microscopic pedestrian modelling, [Chen,Xu, et.al, (2017)](https://doi.org/10.1080/01441647.2017.1396265) classified pedestrian dynamics models into two primary categories namely continuous model and discrete-based model. 
+Critically, the crowded condition introduces a dimension of complexity that extends beyond actively moving passengers alone. Under high occupancy, passengers remaining stationary — whether inside the vehicle or waiting on the platform — are no longer passive elements of the environment. They become active participants whose spatial positioning, yielding decisions, and behavioral responses directly condition the movement of alighting and boarding passengers around them. This interaction between stationary and non-stationary passengers under crowded conditions represents the core operational problem this study addresses, as it remains insufficiently characterized in both empirical and simulation-based research.
 
 
 ### Rationale of the study
 
+#### Sub argument 1: Limited consideration of passenger typology in existing studies
 
-Most prior studies have primarily focused on passenger movements associated with entering and exiting vehicles during boarding and alighting processes ([Qu Y., et.al.,2019](https://doi.org/10.1016/j.physa.2019.121075), [Seriani and Fernandez, 2015](https://doi.org/10.1016/j.trc.2015.02.003)). In contrast, at this moment, only [Yining Jia, et.al.(2026)](https://doi.org/10.1016/j.physa.2026.131279) explicitly consider a categorization of metro passengers into three groups—boarding, alighting, and remaining on-board passengers. However, their analysis is situated within normal operating conditions, where remaining passengers are typically seated, as supported by controlled experimental settings by [Fu L., et.al., 2023](https://doi.org/10.1016/j.tust.2023.105362). This limits the applicability of existing findings to more complex and crowded real-world contexts.
+Most prior studies have primarily focused on passenger movements 
+associated with entering and exiting vehicles during boarding and 
+alighting processes ([Qu Y., et.al., 2019](https://doi.org/10.1016/j.physa.2019.121075); 
+[Seriani and Fernandez, 2015](https://doi.org/10.1016/j.trc.2015.02.003)). 
+In these studies, passengers are treated as a homogeneous moving mass, 
+without distinguishing between those who are actively alighting, actively 
+boarding, or remaining stationary within the vehicle or on the platform. 
+This homogeneous treatment is adequate under low-density conditions, where 
+stationary passengers pose minimal obstruction to moving ones. However, it 
+becomes insufficient under crowded conditions, where stationary passengers 
+are no longer passive obstacles but active participants whose spatial 
+adjustments and yielding decisions directly shape the flow around them.
 
-The focus of this study is alighting and boarding process when public transport facing crowded situation. Individual interactions between passengers during the crowded situation might affect the operation such as dwelling time. Passengers might act different behavior during the boarding and alighting process. Aligned with previous study, the behavior of each pedestrian is different, since it severely influences the movement characteristics, thus, developing crowd model by implementing multiple pedestrian classes is essential ([Duives D.C.,Daamen W., Hoogendoorn S.P., 2013](https://doi.org/10.1016/j.trc.2013.02.005)). Accordingly, this study proposes multiple pedestrian type, that might have different type of behavior during boarding and alighting process, to be considered to the further examination of pedestrian dynamics. The passenger type can be separated into two categories of the state, namely non-stationary and stationary. 
+Empirical evidence already indicates that even within the subset of 
+actively moving passengers, behavioral profiles differ systematically 
+between types. As platform and vehicle occupancy increases during peak 
+hours, passengers experience intensifying time pressure to complete their 
+trip on schedule. Under sufficiently high time pressure, passengers tend 
+to shift from conservative, rule-following behavior toward more 
+competitive behavior, which can escalate into conflicts at the train door 
+([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). 
+Critically, this pressure does not affect all passenger types equally. 
+An asymmetry exists in the consequences of missing the door: a boarding 
+passenger who misses the door merely waits for the next train at the same 
+station, whereas an alighting passenger who misses the door must travel 
+to the next station and return, incurring a substantially higher cost 
+([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). This 
+asymmetry produces systematically distinct behavioral profiles — alighting 
+passengers exhibit greater urgency, moving faster and more consistently 
+throughout the process, while boarding passengers exhibit comparatively 
+more variable and hesitant movement patterns 
+([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). If 
+behavioral distinctness is already observable between alighting and 
+boarding passengers alone, the case for distinguishing passenger types 
+in simulation models becomes empirically unavoidable.
 
-Regarding the approach to model pedestrian dynamics, [Seriani and Fernandez, (2015)](https://doi.org/10.1016/j.trc.2015.02.003) argued that continuous movement on pedestrian dynamics modelling ensure more realistic representations as the space is free from artificial restrictions, such as cells or grids in Cellular Automata approach. However, continuous model seem to be able to reproduce pedestrian movement, but the movements of the pedestrians are not directly related to decision-making processes of pedestrians ([Asano, Iryo & Kuwahara, 2009](https://link.springer.com/chapter/10.1007/978-1-4419-0820-9_28)). Additionally, besides the decision processes of *individual pedestrians* is essential to model such situation, the decision processes of *pedestrians interacting with each other* should be considered to reproduce pedestrian flow, such as during the congested situations. 
+Yet this distinction remains absent from most existing modeling 
+frameworks. Only [Yining Jia, et.al. (2026)](https://doi.org/10.1016/j.physa.2026.131279) 
+explicitly considers a categorization of metro passengers into three 
+groups — boarding, alighting, and remaining on-board passengers. However, 
+their analysis is situated within normal operating conditions, where 
+remaining passengers are typically seated, as supported by controlled 
+experimental settings by [Fu L., et.al., 2023](https://doi.org/10.1016/j.tust.2023.105362). 
+This assumption collapses under crowded real-world conditions, where 
+remaining passengers are predominantly standing, spatially constrained, 
+and compelled to actively respond to the movements of alighting and 
+boarding passengers around them. Consequently, a gap exists in the 
+literature regarding passenger dynamics under crowded conditions that 
+incorporate the full spectrum of passenger states — both stationary and 
+non-stationary.
 
-The passenger category, during the boarding and alighting process, depends on each state, are described as follows:
+To address this gap, this study proposes four passenger types defined 
+by their state during the boarding and alighting process:
 
- |State|Type|Represented by|
- |-----|----|--------------|
- |Non-stationary|Passenger alighting|$(PA_{m})$|
- ||Passenger boarding |$(PB_{m})$|
- |Stationary|Passenger stay inside the car |$(PC_{s})$|
- ||Passenger stay on the platform waiting for boarding process |$(PP_{s})$|
+| State | Type | Represented by |
+|-------|------|----------------|
+| Non-stationary | Passenger alighting | $PA_{m}$ |
+| | Passenger boarding | $PB_{m}$ |
+| Stationary | Passenger staying inside the car | $PC_{s}$ |
+| | Passenger staying on the platform waiting to board | $PP_{s}$ |
+
+
+#### Sub argument 2
+
+
+Physical force-based models 
+reproduce movement trajectories but do not link those trajectories to the decision-making processes that generate them ([Asano, Iryo and Kuwahara, 2009](https://link.springer.com/chapter/10.1007/978-1-4419-0820-9_28)). The urgency asymmetry between $PA_m$ and $PB_m$ documented by Qu et al. (2019) is not a physical difference — both passenger types occupy similar body sizes and move through the same spatial environment. The difference is motivational: each type holds different attitudes toward time cost, social norm compliance, and spatial risk, and these attitudes translate into different decision thresholds for movement behaviors such as yielding, accelerating, and positioning.
+
+This motivational distinctness extends beyond the alighting-boarding contrast when the full typology proposed in this study is considered. Stationary passengers ($PC_s$ and $PP_s$) are governed by crowding discomfort tolerance and anticipatory spatial adjustment rather than locomotion goals — a behavioral profile that diverges fundamentally from that of non-stationary passengers, and that existing models have not yet characterized. The behavior of each pedestrian differs significantly, since it severely influences movement characteristics; thus, developing 
+crowd models that implement multiple pedestrian classes is essential 
+([Duives, Daamen and Hoogendoorn, 2013](https://doi.org/10.1016/j.trc.2013.02.005)).
+
+
+#### Sub argument 3: Existing modeling frameworks are insufficient for representing heterogeneous passenger dynamics in continuous space
+
+In the methodological area of microscopic pedestrian modeling, [Chen, Xu, et.al. (2017)](https://doi.org/10.1080/01441647.2017.1396265) classified pedestrian dynamics models into two primary categories: continuous models and discrete-based models. Each carries specific limitations when applied to the crowded transit boarding and alighting context this study addresses.
+
+Regarding the continuous approach, 
+[Seriani and Fernandez (2015)](https://doi.org/10.1016/j.trc.2015.02.003) argued that continuous movement in pedestrian dynamics modeling ensures more realistic spatial representations, as the space is free from artificial restrictions such as cells or grids imposed by Cellular Automata approaches. However, continuous models, while capable of reproducing movement trajectories, do not directly link pedestrian movement to underlying decision-making processes  ([Asano, Iryo and Kuwahara, 2009](https://link.springer.com/chapter/10.1007/978-1-4419-0820-9_28)). This is a critical shortcoming in the crowded boarding and alighting context, where the decision processes of individual passengers — and crucially, of passengers interacting with each other — must be explicitly represented to reproduce realistic flow dynamics under congested conditions.
 
 ### Research objective
 
