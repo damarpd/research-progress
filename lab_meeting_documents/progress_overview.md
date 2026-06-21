@@ -186,5 +186,7 @@ Pedestrian dynamics model can be divided by two categories namely continuous mod
 ### Future Task
 `10/05` expand the understanding of individual dynamics within discrete approach proposed by [Robin, Th., et.al.,2009](https://doi.org/10.1016/j.trb.2008.06.010).
 
+`21/06` expand understanding another approach by [Hoogendoorn and Bovy 2004](https://doi.org/10.1016/S0191-2615(03)00007-9)
+
 
 
