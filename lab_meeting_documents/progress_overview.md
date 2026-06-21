@@ -3,9 +3,9 @@
 
 ## Introduction
 
-### Background study
 
-<u>General problem</u>
+
+### General problem and background study
 
 Rapid urbanization has become a defining feature of modern cities. To facilitate daily mobility for various trip purposes, such as commuting to work and school, the use of public transportation has been increasingly promoted. This trend has led to a growing demand for public transport systems, particularly metro rail and city bus services, within urban contexts. During off-peak hours, operational issues such as delays are relatively uncommon. However, as passenger demand intensifies during peak periods, such issues become more prevalent. In particular, critical processes such as passenger movement/dynamics within alighting and boarding during the public transport operations can serve as key contributors to these delays. During peak hours, congestion on both platforms and inside trains often forces passengers to wait for multiple trains before they are able to board, and the longer this wait becomes, the stronger the time pressure passengers experience to complete their trip on time; under sufficiently high time pressure, passengers tend to shift from conservative, rule-following behavior toward more radical, competitive behavior, which can escalate into conflicts at the train door ([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). This time pressure is further amplified by an asymmetry in the consequences of missing the door: a boarding passenger who misses the door merely waits for the next train at the same station, whereas an alighting passenger who misses the door must travel to the next station and return, incurring a substantially higher cost ([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)). This asymmetry explains why alighting passengers tend to exhibit greater urgency than boarding passengers, moving faster and more consistently throughout the alighting process ([Qu et al., 2019](https://doi.org/10.1016/j.physa.2019.121075)), illustrating how individual passenger behavior at the platform-train interface can directly shape the efficiency of the boarding and alighting process.
 
@@ -14,7 +14,7 @@ Alighting and boarding process is one of critical process in public transport op
 Additionally, in the methodological area of microscopic pedestrian modelling, [Chen,Xu, et.al, (2017)](https://doi.org/10.1080/01441647.2017.1396265) classified pedestrian dynamics models into two primary categories namely continuous model and discrete-based model. 
 
 
-<u>Rationale of the study</u>
+### Rationale of the study
 
 
 Most prior studies have primarily focused on passenger movements associated with entering and exiting vehicles during boarding and alighting processes ([Qu Y., et.al.,2019](https://doi.org/10.1016/j.physa.2019.121075), [Seriani and Fernandez, 2015](https://doi.org/10.1016/j.trc.2015.02.003)). In contrast, at this moment, only [Yining Jia, et.al.(2026)](https://doi.org/10.1016/j.physa.2026.131279) explicitly consider a categorization of metro passengers into three groups—boarding, alighting, and remaining on-board passengers. However, their analysis is situated within normal operating conditions, where remaining passengers are typically seated, as supported by controlled experimental settings by [Fu L., et.al., 2023](https://doi.org/10.1016/j.tust.2023.105362). This limits the applicability of existing findings to more complex and crowded real-world contexts.
@@ -32,17 +32,17 @@ The passenger category, during the boarding and alighting process, depends on ea
  |Stationary|Passenger stay inside the car |$(PC_{s})$|
  ||Passenger stay on the platform waiting for boarding process |$(PP_{s})$|
 
-<u>Research objective</u>
+### Research objective
 
 Building upon the literature review, this study proposes the research objective. The aim of this study is to examine passengers behavior during public transport with the consideration of non-stationary and stationary passengers. 
 
-<u>Research question</u>
+### Research question
 
 (RQ1) How do passengers’ attitudes and perceptions influence their movement behavior in crowded-situated public transport, when they are in stationary state and non-stationary state?
 
 (RQ2) What alternative framework can better represent the alighting and boarding process, with the consideration of different passenger type, non-stationary and stationary, incorporated to the examination during crowded-situated in public transport?
 
-<u>Proposed idea</u>
+### Proposed idea
 
 The interactions might be occurred between each passenger type during boarding and alighting process are described as follows:
 
@@ -57,7 +57,7 @@ Following DPE rule -> First disembarking process/ alighting -> then embarking pr
 
 Assume within crowding condition
 
-### Alighting process
+#### Alighting process
 
 Passenger alighting $(PA_{m})$
 
@@ -74,7 +74,7 @@ Passenger stay on the platform waiting for boarding process $(PP_{s})$
 
 - (6) Collision avoidance with passenger alighting stepping in to arriving platform. 
 
-### Boarding process
+#### Boarding process
 
 Passenger boarding $(PB_{m})$
 
@@ -87,7 +87,7 @@ Passenger stay inside the car $(PC_{s})$
 
 
 
-<u>Research gap and contribution</u>
+### Research gap and contribution
  
 
 |Type of gap|Identified gap|Study approach|Academic contribution|Practical contribution|
