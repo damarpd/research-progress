@@ -52,8 +52,7 @@ by their state during the boarding and alighting process:
 
 #### Sub argument 2
 
-Establishing that passenger types are behaviorally distinct, as evidenced by Qu et al. (2019), raises a deeper question that existing studies have not addressed: what drives these differences? This question cannot be answered by physical simulation models, which are designed to reproduce movement trajectories but not to explain the decision processes that generate them ([Asano, Iryo and Kuwahara, 2009](https://link.springer.com/chapter/10.1007/978-1-4419-0820-9_28)). Understanding the mechanism requires shifting the analytical lens from physical parameters to the attitudinal and perceptual 
-constructs that underlie passenger decision-making.
+Establishing that passenger types are behaviorally distinct, as evidenced by [Qu et al., (2019)](https://doi.org/10.1016/j.physa.2019.121075), raises a deeper question that existing studies have not addressed: what drives these differences? This question cannot be answered by physical simulation models, which are designed to reproduce movement trajectories but not to explain the decision processes that generate them ([Asano, Iryo and Kuwahara, 2009](https://link.springer.com/chapter/10.1007/978-1-4419-0820-9_28)). Understanding the mechanism requires shifting the analytical lens from physical parameters to the attitudinal and perceptual constructs that underlie passenger decision-making.
 
 
 
