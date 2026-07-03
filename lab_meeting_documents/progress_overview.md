@@ -38,10 +38,11 @@ experimental settings by [Fu L., et.al., 2023](https://doi.org/10.1016/j.tust.20
 This assumption collapses under crowded real-world conditions, where 
 remaining passengers are predominantly standing, spatially constrained, 
 and compelled to actively respond to the movements of alighting and 
-boarding passengers around them. Consequently, a gap exists in the 
-literature regarding passenger dynamics under crowded conditions that 
-incorporate the full spectrum of passenger states — both stationary and 
-non-stationary.
+boarding passengers around them.
+
+[Shen et al. (2026)](https://doi.org/10.1016/j.simpat.2026.103260) takes a step further by using four passenger types in their simulation — alighting passengers, boarding passengers, carriage standees, and platform-waiting pedestrians — which matches the full range of passenger states this study also proposes. However, stationary passengers in their model are treated only as physical objects: they are set to have zero speed and simply block or deflect moving passengers through force equations, without any capacity to make decisions or respond to the situation around them.
+
+Consequently, even though recent studies have begun to include all four passenger types, stationary passengers are still only represented physically — as obstacles — rather than as agents who actually decide when to yield, how to move, and how to react as crowding around them increases.
 
 To address this gap, this study proposes four passenger types defined 
 by their state during the boarding and alighting process:
