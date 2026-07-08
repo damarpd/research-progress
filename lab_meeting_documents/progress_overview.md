@@ -28,10 +28,9 @@ This asymmetric sensitivity to crowding is not unique to metro contexts. In an i
 
 If behavioral distinctness is already observable between alighting and boarding passengers alone, the case for distinguishing passenger types in simulation models becomes empirically unavoidable.
 
-Yet this distinction remains absent from most existing modeling 
-frameworks. Only [Yining Jia, et.al. (2026)](https://doi.org/10.1016/j.physa.2026.131279) 
-explicitly considers a categorization of metro passengers into three 
-groups — boarding, alighting, and remaining on-board passengers. However, 
+Yet this distinction remains absent from most existing modeling frameworks. Among the few studies that have attempted typological classification, [Li Z. et al. (2020)](https://doi.org/10.1016/j.tra.2019.12.017) made an early attempt at passenger typology by classifying passengers into three types — alighting, boarding, and staying — in their SFM simulation. Staying passengers were given a small degree of reactive capacity: when moving passengers come nearby, they slightly shift their position to yield space. This is a step beyond treating stationary passengers as fixed obstacles. However, the yielding is only a simple physical adjustment, platform-waiting passengers are not included, and no explanation is offered for why a staying passenger yields or how their response changes under crowding.
+
+More recently, [Yining Jia, et.al. (2026)](https://doi.org/10.1016/j.physa.2026.131279) explicitly considers a categorization of metro passengers into three groups — boarding, alighting, and remaining on-board passengers. However, 
 their analysis is situated within normal operating conditions, where 
 remaining passengers are typically seated, as supported by controlled 
 experimental settings by [Fu L., et.al., 2023](https://doi.org/10.1016/j.tust.2023.105362). 
