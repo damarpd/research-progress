@@ -61,12 +61,12 @@ by their state during the boarding and alighting process:
 
 #### Sub argument 2: Absence of attitudinal and perceptual constructs in existing passenger simulation models
 
+<mark> need a strong anchor at the opening section</mark>
 
 Behavioral difference across passenger type as evidenced by [Qu et al., (2019)](https://doi.org/10.1016/j.physa.2019.121075), which applied the objective measures such as time (in second), could be the starting point that there is different motivational state which drive the dynamics behavior each passenger type. [Stokols (1972)](https://doi.org/10.1037/h0032706) established that motivational state refers to the psychological experience of crowding, which is fundamentally different from the physical condition of density. 
 
 
- Understanding what actually drives passenger behavior therefore requires shifting the analytical lens from physical parameters to the attitudinal and perceptual constructs that underlie passenger decision-making.
-
+ Understanding what actually drives passenger behavior therefore requires shifting the analytical lens from physical parameters to the attitudinal and perceptual constructs that underlie passenger decision-making, each proposed passenger type. The behavioral responses, by each proposed passenger type, need to be examined by considering perceived crowding by each proposed passenger type. 
 
 
 [Shen et al. (2026)](https://doi.org/10.1016/j.simpat.2026.103260) makes this clear through a deliberate design choice: carriage standees and platform-waiting passengers are intentionally set to zero speed with no ability to react or respond. They are present in the simulation as physical objects — but by design, they do not perceive, decide, or adjust to the situation around them. This is not a flaw in their model; it is a conscious simplification. But it means that how stationary passengers actually behave — where they choose to stand, whether they respond to the alighting flow, and how their reactions change as crowding grows — is intentionally left outside the model's scope, and this is the gap the present study addresses.
