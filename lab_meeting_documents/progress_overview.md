@@ -61,7 +61,7 @@ by their state during the boarding and alighting process:
 
 #### Sub argument 2: Absence of attitudinal and perceptual constructs in existing passenger simulation models
 
-<mark> need a strong anchor at the opening section</mark>
+<mark> need a strong anchor at the opening section, given that current study highlighted crowding condition on public transport. Since that crowding considered as subjective perception rather than objective perception, needs to considered perceived crowding in each passenger type to investigate the perceived crowding affecting behavioral responses each passenger type in crowding situation </mark>
 
 Behavioral difference across passenger type as evidenced by [Qu et al., (2019)](https://doi.org/10.1016/j.physa.2019.121075), which applied the objective measures such as time (in second), could be the starting point that there is different motivational state which drive the dynamics behavior each passenger type. [Stokols (1972)](https://doi.org/10.1037/h0032706) established that motivational state refers to the psychological experience of crowding, which is fundamentally different from the physical condition of density. 
 
