@@ -84,7 +84,7 @@ Building upon the literature review, this study proposes the research objective.
 
 ### Research question
 
-(RQ1) How do passengers’ attitudes and perceptions influence their movement behavior in crowded-situated public transport, when they are in stationary state and non-stationary state?
+(RQ1) How does perceived crowding influence the behavioral responses of alighting ($PA_m$), boarding ($PB_m$), carriage-staying ($PC_s$), and platform-waiting ($PP_s$) passengers during the boarding and alighting process under crowded conditions?
 
 (RQ2) What alternative framework can better represent the alighting and boarding process, with the consideration of different passenger type, non-stationary and stationary, incorporated to the examination during crowded-situated in public transport?
 
