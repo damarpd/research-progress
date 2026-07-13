@@ -89,13 +89,13 @@ Regarding the continuous approach,
 
 ### Research objective
 
-Building upon the literature review, this study proposes the research objective. The aim of this study is to examine passengers behavior during public transport with the consideration of non-stationary and stationary passengers. 
+Building upon the literature review, this study proposes the research objective. This study aims to develop typology-informed understanding of passenger behavioral dynamics during the boarding and alighting process under crowded public transport conditions, by integrating perceived crowding as a subjective behavioral alongside simulation framework that accounts for heterogeneous nature of passenger states. 
 
 ### Research question
 
 (RQ1) How does perceived crowding influence the behavioral responses of alighting ($PA_m$), boarding ($PB_m$), carriage-staying ($PC_s$), and platform-waiting ($PP_s$) passengers during the boarding and alighting process under crowded conditions?
 
-(RQ2) What alternative framework can better represent the alighting and boarding process, with the consideration of different passenger type, non-stationary and stationary, incorporated to the examination during crowded-situated in public transport?
+(RQ2) What alternative framework can better represent the alighting and boarding process, with the consideration of different passenger type, non-stationary and stationary, incorporated to the examination during crowded-situated in public transport? (non complete yet)
 
 ### Proposed idea
 
