@@ -68,6 +68,15 @@ This limitation becomes clearer when looking at what the model's own results mea
 
 This is precisely the contribution this study proposes: to examine how perceived crowding shapes the behavioral response of each passenger types: $PA_m$, $PB_m$, $PC_s$, and $PP_s$, under crowded public transport conditions, a dimension not fully examined by previous studies.
 
+| Passenger Type | State | Behavioral Response under Crowded Conditions |
+|---|---|---|
+| $PA_m$ | Non-stationary — alighting phase | Moves with urgency toward and through the door; exhibits assertive or competitive behavior at the doorway; navigates around $PC_s$ inside the vehicle and around $PP_s$ on the platform |
+| $PP_s$ ** | Stationary — alighting phase | Yielding decisions and spatial repositioning as $PA_m$ approaches and passes through on the platform area |
+| $PB_m$ ** | Non-stationary — boarding phase | Compliance with the "alight first" (DPE) rule — whether $PB_m$ waits for $PA_m$ to fully clear before entering, or starts boarding early; under high perceived crowding accumulated during the preceding $PP_s$ state, compliance with the queue rule may decrease, increasing door conflict and slowing the overall process |
+| $PC_s$ | Stationary — throughout both phases | Repositioning to yield space when $PA_m$ passes nearby inside the vehicle; adjusts again when $PB_m$ enters;|
+
+*\*\* $PP_s$ and $PB_m$ represent the same passenger in two successive states: stationary while waiting during the alighting phase ($PP_s$), then actively moving during the boarding phase ($PB_m$). Perceived crowding accumulated in the $PP_s$ state carries forward and shapes behavioral responses in the $PB_m$ state.*
+
 
 
 
