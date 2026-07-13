@@ -63,3 +63,7 @@ crowd models that implement multiple pedestrian classes is essential
 
 09/07
 This question cannot be answered by physical simulation models, which are designed to reproduce movement trajectories but not to explain the decision processes that generate them ([Asano, Iryo and Kuwahara, 2009](https://link.springer.com/chapter/10.1007/978-1-4419-0820-9_28)). Understanding the mechanism requires shifting the analytical lens from physical parameters to the attitudinal and perceptual constructs that underlie passenger decision-making.
+
+13/07
+
+<mark> need a strong anchor at the opening section, given that current study highlighted crowding condition on public transport. Since that crowding considered as subjective perception rather than objective perception, needs to considered perceived crowding in each passenger type to investigate the perceived crowding affecting behavioral responses each passenger type in crowding situation. At this moment the proposed idea of this sub argument 2 would be sub-study of this thesis universe, which has title "Perceived Crowding Impact on Behavioral Response During Public Transport Crowding Considering Passenger Type"</mark>
