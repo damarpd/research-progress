@@ -255,6 +255,15 @@ Passenger stay inside the car $(PC_{s})$
 - A larger positive time gap before boarding starts lets alighting passengers fully clear the door first, producing larger and cleaner bursts with less mutual interference — supporting a deliberate delay before the first boarding passenger enters as an effective crowd management strategy to increase burst size and improve overall flow order [Qu et al (2019)](https://doi.org/10.1016/j.physa.2019.121075).
 - The time gap reliably predicts crowd orderliness: even a few seconds' delay before the first boarding passenger enters meaningfully improves the order degree, with the study recommending a $t_{gap}$ window of **[5.40 s, 8.52 s]** to consistently achieve a high order degree of roughly $d_{order} = 0.85$ [Qu et al (2019)](https://doi.org/10.1016/j.physa.2019.121075).
 
+| Passenger Type | State | Governing attitudinal / perceptual construct | Behavioral response under crowded conditions |
+|---|---|---|---|
+| $PA_m$ | Non-stationary — alighting phase | Perceived crowding while forcing a path through a dense platform; time pressure from the heavier penalty of missing the door; tolerance for breaking the alight-first rule. **Withdrawal available — exiting *is* withdrawal**, so crowding and urgency drive the same response | Moves urgently and assertively through the door; navigates around $PC_s$ inside the carriage and $PP_s$ on the platform. Aligned motives produce consistent, low-variance movement |
+| $PP_s$ ** | Stationary — alighting phase | Perceived crowding as the alighting flow is pushed through them. **Withdrawal unavailable — committed to board at that door** | Gives way and repositions as $PA_m$ passes; the only responses left are yielding and repositioning, so crowding and time pressure build up rather than dissipate |
+| $PB_m$ ** | Non-stationary — boarding phase | Perceived crowding while moving *into* higher density, pulling against the goal of boarding; compliance with the alight-first rule; crowding and pressure carried over from the $PP_s$ state. **Withdrawal available in principle but costly and goal-conflicting** | Waits for $PA_m$ to clear, or pushes forward early; conflicting motives produce heterogeneous, high-variance behavior. Under high accumulated pressure, compliance weakens and door conflict increases |
+| $PC_s$ | Stationary — throughout both phases | Perceived crowding while enclosed within a packed carriage; threshold for giving way. **Withdrawal wholly unavailable — cannot leave at all** | Repositions to make room as $PA_m$ passes and as $PB_m$ enters; the decision to give way or resist is the only response available, and willingness to give way is shaped by accumulated crowding, not by physical force alone |
+
+*\*\* $PP_s$ and $PB_m$ are the same passenger in two successive states: stationary while waiting during the alighting phase ($PP_s$), then moving during the boarding phase ($PB_m$). Crowding and time pressure accumulated as $PP_s$ carry forward into $PB_m$.*
+
 
 
 
