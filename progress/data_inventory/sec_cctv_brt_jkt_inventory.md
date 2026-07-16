@@ -22,11 +22,11 @@
 
 ## Inventory
 
-| ID | Date | Day | Time Start | Time End | Duration (min) | Station | Corridor | Camera View | Crowd Level | Period | Quality | Visibility | Usable | Processing Status | File Name | File Size | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 001 | | | | | | | | | | | | | | | | | |
-| 002 | | | | | | | | | | | | | | | | | |
-| 003 | | | | | | | | | | | | | | | | | |
+| ID | Date | Day | Time Start | Time End | Duration (min) | Station | Corridor | Docking Bay Captured | Bay Coverage | Crowd Level | Period | Quality | Visibility | Usable | Processing Status | File Name | File Size | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 001 | | | | | | | | | | | | | | | | | | |
+| 002 | | | | | | | | | | | | | | | | | | |
+| 003 | | | | | | | | | | | | | | | | | | |
 
 ---
 
@@ -42,7 +42,8 @@
 | **Duration** | Length of footage | Minutes |
 | **Station** | Transjakarta stop/station name | e.g., Harmoni, Dukuh Atas |
 | **Corridor** | Transjakarta corridor | e.g., Corridor 1, Corridor 6 |
-| **Camera View** | What the camera captures | Platform / Bus Door / Bus Interior / Wide Angle |
+| **Docking Bay Captured** | The specific docking bay (stopping bay) the platform camera captures clearly — the area within a sub-stop where BRT vehicles pull up to allow customers to board or alight (ITDP); one station may have multiple docking bays | e.g., Bay 1, Bay 2, Bay 1 & 2 |
+| **Bay Coverage** | How clearly the docking bay is captured within the camera frame | Full / Partial / Multi-bay |
 | **Crowd Level** | Observed passenger density | Low / Medium / High |
 | **Period** | Time-of-day classification | Peak AM / Peak PM / Off-Peak |
 | **Quality** | Video image quality | Good / Fair / Poor |
