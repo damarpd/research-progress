@@ -42,8 +42,18 @@
 | 016 | 27/10/2025 | Weekday | Peak PM | 17:30 | 18:30 | 60 | Cawang Sentral | Cannot be identified | Cannot be identified | Cannot be identified | Poor| Obstructed | No |cs_27_17301830_priuk.avi | 243 MB| Visibility is not fully clear, so the docking bay captured cannot be identified; passenger boarding/alighting dynamics cannot be captured, so this footage cannot be used for further analysis |
 | 017 | 27/10/2025 | Weekday | Peak PM | 17:30| 18:11 | 41| Cawang Sentral | | D, E, P, R | Multi-bay | Fair| Partial| Partial| cs_27_17301830_R_1730_1811.avi| 104 MB| Docking bay D fully obstructed by signage; docking bay E partially obstructed by signage; docking bay R partially obstructed by signage and tenant shop near docking R; docking bay P is partially obstructed |
 | 018 | 27/10/2025 | Weekday | Peak PM | 18:11| 18:30 | 19| Cawang Sentral | | D, E, P, R | Multi-bay | Fair| Partial| Partial| cs_27_17301830_1811_1830.avi| 59 MB| Docking bay D fully obstructed by signage; docking bay E partially obstructed by signage; docking bay R partially obstructed by signage and tenant shop near docking R; docking bay P is partially obstructed |
-| 019 | 25/10/2025| Weekend|Off-Peak |10:00 | 11:00|60 |Galunggung | |A,B,C,K,L,M |Multi-bay |Good |Partial |Partial |g_25_1011_BCKL.avi |215 MB | |
-| 020 | | | | | | | | | | | | | | | | |
+| 019 | 25/10/2025| Weekend|Off-Peak |10:00 | 11:00|60 |Galunggung | |A,B,C,K,L,M |Multi-bay |Good |Partial |Partial |g_25_1011_BCKL.avi |215 MB |Docking bays A and M fully clear; docking bays B and L partially obstructed by signage; docking bays C and K fully obstructed by signage |
+| 020 | 25/10/2025| Weekend| Off-Peak| 10:00| 11:00| 60| Galunggung| Cannot be identified| Cannot be identified| Cannot be identified| Good| Clear| Yes| g_25_1011_between.avi| 173 MB| This camera is located on passage connecting alighting-only platform and boarding-only platform|
+| 021 | 25/10/2025| Weekend| Off-Peak| 10:00| 10:38| 38| Galunggung| | D,E,F,G,H,J| Multi-bay| Good| Partial| Partial| g_25_1011_EFGH_1000_1038.avi| 175 MB| Passenger boarding/alighting dynamics on docking bays D, E, H, and J fully clear; docking bays F and G fully obstructed |
+| 022 | 25/10/2025| Weekend| Off-Peak| 10:38| 11:00| 22| Galunggung| | D,E,F,G,H,J| Multi-bay| Good| Partial| Partial| g_25_1011_EFGH_1038_1100.avi| 94 MB| Passenger boarding/alighting dynamics on docking bays D, E, H, and J fully clear; docking bays F and G fully obstructed |
+| 023 | 25/10/2025| Weekend| Off-Peak| 10:00| 11:00| 60| Galunggung| | K,L,M,A,B,C| Multi-bay| Good| Partial| Partial| g_25_1011_KLBC.avi| 191 MB| Docking bays K, L, B, and C fully clear; docking bays M and A partially obstructed by ceiling fan and signage |
+| 024 | | | | | | | | | | | | | | | | |
+| 025 | | | | | | | | | | | | | | | | |
+| 026 | | | | | | | | | | | | | | | | |
+| 027 | | | | | | | | | | | | | | | | |
+| 028 | | | | | | | | | | | | | | | | |
+| 029 | | | | | | | | | | | | | | | | |
+| 030 | | | | | | | | | | | | | | | | |
 
 ---
 
