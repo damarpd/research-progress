@@ -47,8 +47,8 @@
 | 021 | 25/10/2025| Weekend| Off-Peak| 10:00| 10:38| 38| Galunggung| | D,E,F,G,H,J| Multi-bay| Good| Partial| Partial| g_25_1011_EFGH_1000_1038.avi| 175 MB| Passenger boarding/alighting dynamics on docking bays D, E, H, and J fully clear; docking bays F and G fully obstructed |
 | 022 | 25/10/2025| Weekend| Off-Peak| 10:38| 11:00| 22| Galunggung| | D,E,F,G,H,J| Multi-bay| Good| Partial| Partial| g_25_1011_EFGH_1038_1100.avi| 94 MB| Passenger boarding/alighting dynamics on docking bays D, E, H, and J fully clear; docking bays F and G fully obstructed |
 | 023 | 25/10/2025| Weekend| Off-Peak| 10:00| 11:00| 60| Galunggung| | K,L,M,A,B,C| Multi-bay| Good| Partial| Partial| g_25_1011_KLBC.avi| 191 MB| Docking bays K, L, B, and C fully clear; docking bays M and A partially obstructed by ceiling fan and signage |
-| 024 | | | | | | | | | | | | | | | | |
-| 025 | | | | | | | | | | | | | | | | |
+| 024 |25/10/2025 | Weekend| Off-Peak| 17:00| 18:00| 60| Galunggung| | G,H,E,F| Multi-bay| Good| Partial| Partial| g_25_1718_GHEF.avi| 291 MB| Docking bays G and F are clear; docking bays H and E partially obstructed by signage |
+| 025 | 25/10/2025| Weekend| Off-Peak| 10:00| 11:00| 60| Petamburan| |A,B | Multi-bay| Fair| Partial| Partial| p_25_1011_AB.avi| 176 MB| Docking bays A and B are clear|
 | 026 | | | | | | | | | | | | | | | | |
 | 027 | | | | | | | | | | | | | | | | |
 | 028 | | | | | | | | | | | | | | | | |
