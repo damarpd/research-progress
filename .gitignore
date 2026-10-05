@@ -1,0 +1,9 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Generated output
+progress/SLR/prior_inventory.xlsx
