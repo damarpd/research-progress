@@ -6,7 +6,6 @@ keep = {"Key": "zotero_key", "Author": "authors", "Publication Year": "year",
 inv = df[list(keep)].rename(columns=keep).sort_values(["year", "authors"])
 
 inv.insert(0, "id", [f"P{i:03d}" for i in range(1, len(inv) + 1)])  # P001, P002, ...
-inv["date_found"] = inv["date_added"].str[:10]   # Zotero add date as a proxy
 inv["found_via"] = ""     # supervisor / Google Scholar / citation / conference
 inv["prior_use"] = ""     # e.g. cited in intro, methods reference, key finding
 inv["on_topic"] = ""      # yes / uncertain (only for the benchmark split)
