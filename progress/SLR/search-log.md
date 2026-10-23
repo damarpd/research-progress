@@ -75,3 +75,48 @@ AND ( DOCTYPE( ar ) OR DOCTYPE( cp ) )
 | Web of Science | not run | | | |
 
 Known risks of v0.1: `board*` also matches unrelated words (boarder, boardroom); `platform*` also matches software platforms; `metro` and `queu*` may add noise. Block C is the widest block, so check the first 50-100 results for off-topic papers.
+
+## Version 0.2 (draft, not yet run)
+
+- Date drafted: see commit date
+- Reason: v0.1 missed P004 (bus boarding and alighting dynamics, smart card data). Its abstract has no term from block A beyond "bus" and none from block C. The changes generalize the context and outcome vocabulary and are not tailored to P004 alone. P013 was a correct miss and is not a reason for change.
+- Changes from v0.1:
+    - block A: added `bus`, `"bus stop*"`, `"public transport*"`, `"transit station*"`
+    - block B: `board*`, `alight*`, `"train door*"` only; `"dwell time"` and `"passenger service time"` moved to block C so that a paper must mention boarding or alighting
+    - block C: added `"dwell time"`, `"passenger service time"`, `"boarding time"`, `"alighting time"`, `"passenger flow"`
+- Filters unchanged: 2000-2026, English, journal articles and conference papers.
+
+**Scopus**
+
+```
+TITLE-ABS-KEY(
+  ( "bus rapid transit" OR BRT OR busway* OR bus OR "bus station*" OR "bus stop*"
+    OR "bus platform*" OR "public transport*" OR "transit station*"
+    OR metro OR subway OR "urban rail" OR "rail transit" OR "metro station*"
+    OR "train station*" OR platform* )
+  AND
+  ( board* OR alight* OR "train door*" )
+  AND
+  ( "fundamental diagram*" OR "crowd dynamic*" OR "pedestrian dynamic*" OR bottleneck*
+    OR bidirectional OR bi-directional OR "time headway" OR "social force"
+    OR "level of service" OR "door width" OR "platform edge door*" OR "keep out zone"
+    OR "differentiated door*" OR queu* OR "waiting behavio*" OR trajector*
+    OR "surveillance video" OR layout* OR "flow separat*"
+    OR "dwell time" OR "passenger service time" OR "boarding time"
+    OR "alighting time" OR "passenger flow" )
+)
+AND PUBYEAR > 1999 AND PUBYEAR < 2027
+AND LANGUAGE( english )
+AND ( DOCTYPE( ar ) OR DOCTYPE( cp ) )
+```
+
+**Web of Science:** `TS=( same three blocks )`, with the same filters as v0.1.
+
+| database | date run | hits | validation papers retrieved (of 5: P001, P004, P009, P010, P012) | notes |
+|---|---|---|---|---|
+| Scopus | (add date) | 2178 | 5 of 5: P001, P004, P009, P010, P012 | +791 hits (+57%) versus v0.1 |
+| Web of Science | | | | |
+
+Note on validity: v0.2 was revised after seeing which validation paper v0.1 missed (P004), so the 5 of 5 is no longer a fully blind test. Report v0.1 (4 of 5, before revision) and v0.2 (5 of 5, after revision) together.
+
+Expected effect: more hits than v0.1 because `bus` and the added block C terms are broad. If the count rises sharply, tighten with proximity (for example `bus W/5 board*`) before considering any subject-area filter.
