@@ -114,8 +114,8 @@ AND ( DOCTYPE( ar ) OR DOCTYPE( cp ) )
 
 | database | date run | hits | validation papers retrieved (of 5: P001, P004, P009, P010, P012) | notes |
 |---|---|---|---|---|
-| Scopus | (add date) | 2178 | 5 of 5: P001, P004, P009, P010, P012 | +791 hits (+57%) versus v0.1 |
-| Web of Science | | | | |
+| Scopus | 23/10/2026 | 2178 | 5 of 5: P001, P004, P009, P010, P012 | +791 hits (+57%) versus v0.1 |
+| Web of Science | (add date) | 902 | 5 of 5: P001, P004, P009, P010, P012 | Core Collection; add the editions searched |
 
 Note on validity: v0.2 was revised after seeing which validation paper v0.1 missed (P004), so the 5 of 5 is no longer a fully blind test. Report v0.1 (4 of 5, before revision) and v0.2 (5 of 5, after revision) together.
 
