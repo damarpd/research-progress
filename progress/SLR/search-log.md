@@ -9,6 +9,15 @@ Protocol: `protocol.md` v0.3. Every version of the search string is recorded her
 - Validation half (hidden, used only to test recall): the other six on-topic prior articles. Do not read them for keywords.
 - Author keywords are not in the Zotero export (tags only hold "prior"), so terms were taken by hand from the titles and abstracts of the keyword half.
 
+## Benchmark re-judging after the first search
+
+- The first search (v0.1) missed P004 and P013. P013 had no boarding/alighting content, so all seven original "yes" papers (labelled before the protocol existed) were re-judged against protocol section 5, whether or not they had been retrieved. This happened after the first search and is recorded as a deviation. Sheet: `original_yes_rejudge.xlsx`.
+- Result: P002 and P013 changed to "no"; P008, P009, P010, P011 and P015 stay "yes". P009 and P011 were borderline and kept.
+- The split in `benchmark_split.csv` is unchanged. The effective benchmark is the papers with `on_topic` = yes in the inventory (10):
+    - keyword half (5): P005, P006, P008, P011, P015
+    - validation half (5): P001, P004, P009, P010, P012
+- Recall of v0.1 on the effective validation half: 4 of 5 (P001, P009, P010, P012 retrieved; P004 missed). On the original six it was 4 of 6.
+
 ## Terms mined from the keyword half
 
 | block | term | source |
@@ -62,7 +71,7 @@ AND ( DOCTYPE( ar ) OR DOCTYPE( cp ) )
 
 | database | date run | hits | hidden papers retrieved (of 6) | notes |
 |---|---|---|---|---|
-| Scopus | not run | | | |
+| Scopus | 23/10/2026 | 1387 | 4 of 6: P001, P009, P010, P012 retrieved; P004 and P013 missed | saved search `brt_v01` |
 | Web of Science | not run | | | |
 
 Known risks of v0.1: `board*` also matches unrelated words (boarder, boardroom); `platform*` also matches software platforms; `metro` and `queu*` may add noise. Block C is the widest block, so check the first 50-100 results for off-topic papers.
