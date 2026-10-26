@@ -135,7 +135,7 @@ Expected effect: more hits than v0.1 because `bus` and the added block C terms a
 - Precision: 5/50 = 10% counting "relevant" only (about 4-21%), and 11/50 = 22% with "maybe" (about 13-35%). Intervals are approximate (Wilson, 95%).
 - Reasons for "not relevant": about 32 of 39 come from non-transport engineering (electronics, robotics, aerospace, communications, batteries, signal processing). About 7 are transport papers outside the topic (metro station clustering, shuttle dispatching, bus line optimization, BRT corridor selection). The noise comes from generic terms that mean something else in engineering: `bus` (data bus), `board*` (circuit board, on-board), `platform*` (hardware platform), and to a lesser degree `trajector*`, `layout*`, `queu*`.
 - S48 (light rail passenger flow estimation) was first judged relevant, then changed to maybe after a second look. S45 (camera tracking of passengers during bus boarding) stays relevant.
-- Benchmark coverage in the v0.2 export: 9 of the 10 benchmark papers are present. P011 (keyword half, borderline yes) is not in the export, because its abstract contains no boarding or alighting wording (block B). Decision: accept the miss and let P011 enter through the "other methods" route.
+- Benchmark coverage in the v0.2 export: 9 of the 10 benchmark papers are present. P011 (keyword half, borderline yes) is not in the export. Confirmed in Scopus (date to add): P011 is indexed (found by DOI alone) but is not retrieved when its DOI is combined with the v0.2 search. The likely cause is that its abstract contains no boarding or alighting wording (block B). Decision: accept the miss, leave the string unchanged, and let P011 enter through the "other methods" route.
 - Approximate test of a tighter string on the export (text match on title, abstract and author keywords only, not a Scopus run): about 489 of 2180 records remain; all 5 relevant sample records, 4 of 6 maybe (S27 bus bunching and S43 level boarding accessibility are lost) and 4 of 39 irrelevant records are kept; all 9 benchmark papers in the export are kept.
 
 ## Version 0.3 (draft, not yet run)
@@ -178,7 +178,7 @@ AND ( DOCTYPE( ar ) OR DOCTYPE( cp ) )
 
 | database | date run | hits | benchmark papers retrieved | notes |
 |---|---|---|---|---|
-| Scopus | | | | |
-| Web of Science | | | | |
+| Scopus | (add date) | 515 | 9 of 9: P001, P004, P005, P006, P008, P009, P010, P012, P015 | 76% fewer hits than v0.2 (2180); P011 is a known miss |
+| Web of Science | (add date) | 366 | 9 of 9: P001, P004, P005, P006, P008, P009, P010, P012, P015 | Core Collection; add the editions searched; P011 is a known miss |
 
 After running: check all benchmark papers (validation half P001, P004, P009, P010, P012 and keyword half P005, P006, P008, P015; P011 is a known miss), then draw a new, smaller precision sample from the v0.3 results.
