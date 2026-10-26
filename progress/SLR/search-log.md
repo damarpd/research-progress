@@ -182,3 +182,30 @@ AND ( DOCTYPE( ar ) OR DOCTYPE( cp ) )
 | Web of Science | (add date) | 366 | 9 of 9: P001, P004, P005, P006, P008, P009, P010, P012, P015 | Core Collection; add the editions searched; P011 is a known miss |
 
 After running: check all benchmark papers (validation half P001, P004, P009, P010, P012 and keyword half P005, P006, P008, P015; P011 is a known miss), then draw a new, smaller precision sample from the v0.3 results.
+
+### Scopus export of v0.3 and precision check
+
+- Export: `scopus_v03.csv`, 515 records, all English, years 2000-2026; 23 records have no DOI; all 9 retrievable benchmark papers are present. 508 of the 515 records are also in the v0.2 export. The export has no document type column (the search filter handled it).
+- Precision sample: `precision_sample_v03.xlsx`, 50 records drawn at random with seed 20261027 (`SLR-precision-sample-v03.py`), judged from title and abstract against protocol section 5. Four "relevant" judgements (T14, T19, T22, T26) were reread afterwards; T14 and T19 changed to maybe.
+
+| judgement | records | v0.2 sample for comparison |
+|---|---|---|
+| relevant | 16 | 5 |
+| maybe | 20 | 6 |
+| not relevant | 14 | 39 |
+
+- Precision: 16/50 = 32% counting "relevant" only (about 21-46%), and 36/50 = 72% with "maybe" (about 58-83%). For v0.2 these were 10% and 22%. Intervals are approximate (Wilson, 95%).
+- Reasons for "not relevant": all 14 are transport papers outside the topic (bus demand, reliability, route choice, travel time, fare collection, taxi services, service perception, metro clustering). The non-transport engineering noise seen in v0.2 (electronics, robotics, aerospace) is gone.
+- No clearly BRT-specific study appears in the sample; the BRT coverage check is still open.
+- Decision: v0.3 is accepted as the search string, pending the BRT coverage check.
+
+### BRT coverage check (broad BRT query against v0.3)
+
+- No known BRT papers were available, so a deliberately broad BRT query was run and compared with v0.3. Broad query: (`"bus rapid transit"` OR BRT OR `busway*`) AND (boarding OR `alight*` OR `board*` OR `"dwell time"` OR `"passenger service time"` OR `platform*` OR `"bus station*"` OR `"station design"` OR `"boarding time"`), with the same filters as v0.3 (2000-2026, English, articles and conference papers).
+
+| database | date run | broad BRT query | also retrieved by v0.3 | not retrieved by v0.3 |
+|---|---|---|---|---|
+| Scopus | (add date) | 331 | 33 | 298 |
+| Web of Science | (add date) | 179 | 16 | 163 |
+
+- The records not retrieved by v0.3 are not yet judged. The broad query is noisy (`board*`, `platform*`, BRT as an acronym in other fields), so the counts alone do not measure recall. Next step: judge a random sample of the Scopus 298 against protocol section 5 and record how many are relevant and why v0.3 missed them.
