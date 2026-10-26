@@ -120,3 +120,65 @@ AND ( DOCTYPE( ar ) OR DOCTYPE( cp ) )
 Note on validity: v0.2 was revised after seeing which validation paper v0.1 missed (P004), so the 5 of 5 is no longer a fully blind test. Report v0.1 (4 of 5, before revision) and v0.2 (5 of 5, after revision) together.
 
 Expected effect: more hits than v0.1 because `bus` and the added block C terms are broad. If the count rises sharply, tighten with proximity (for example `bus W/5 board*`) before considering any subject-area filter.
+
+### Scopus export of v0.2 and precision check
+
+- Export: `scopus_v02.csv`, exported on 26/10/2026, 2180 records (the count shown earlier was 2178; Scopus re-indexes between runs). Fields: title, abstract, authors, year, source, DOI, author keywords, document type. 239 records have no DOI; 15 titles are duplicated within the export.
+- Precision sample: `precision_sample.xlsx`, 50 records drawn at random from the export with seed 20261026 (`SLR-precision-sample.py`), judged from title and abstract against protocol section 5.
+
+| judgement | records |
+|---|---|
+| relevant | 5 |
+| maybe | 6 |
+| not relevant | 39 |
+
+- Precision: 5/50 = 10% counting "relevant" only (about 4-21%), and 11/50 = 22% with "maybe" (about 13-35%). Intervals are approximate (Wilson, 95%).
+- Reasons for "not relevant": about 32 of 39 come from non-transport engineering (electronics, robotics, aerospace, communications, batteries, signal processing). About 7 are transport papers outside the topic (metro station clustering, shuttle dispatching, bus line optimization, BRT corridor selection). The noise comes from generic terms that mean something else in engineering: `bus` (data bus), `board*` (circuit board, on-board), `platform*` (hardware platform), and to a lesser degree `trajector*`, `layout*`, `queu*`.
+- S48 (light rail passenger flow estimation) was first judged relevant, then changed to maybe after a second look. S45 (camera tracking of passengers during bus boarding) stays relevant.
+- Benchmark coverage in the v0.2 export: 9 of the 10 benchmark papers are present. P011 (keyword half, borderline yes) is not in the export, because its abstract contains no boarding or alighting wording (block B). Decision: accept the miss and let P011 enter through the "other methods" route.
+- Approximate test of a tighter string on the export (text match on title, abstract and author keywords only, not a Scopus run): about 489 of 2180 records remain; all 5 relevant sample records, 4 of 6 maybe (S27 bus bunching and S43 level boarding accessibility are lost) and 4 of 39 irrelevant records are kept; all 9 benchmark papers in the export are kept.
+
+## Version 0.3 (draft, not yet run)
+
+- Reason: the precision check of v0.2 showed that most noise comes from generic terms in blocks A and B.
+- Changes from v0.2:
+    - block A: removed bare `bus` and `platform*`; added `"bus passenger*"`, `"bus dwell time"`, `"station platform*"`, `"train platform*"`, `"metro platform*"`, `"subway platform*"`, `"rail platform*"`, `"transit platform*"`, `"platform edge door*"`, `"train door*"`
+    - block B: `boarding` OR `alight*` OR `"board and alight*"` OR `"train door*"`; removed bare `board*`
+    - block C: unchanged
+- Filters unchanged: 2000-2026, English, journal articles and conference papers.
+
+**Scopus**
+
+```
+TITLE-ABS-KEY(
+  ( "bus rapid transit" OR BRT OR busway* OR "bus station*" OR "bus stop*"
+    OR "bus platform*" OR "bus passenger*" OR "bus dwell time"
+    OR "public transport*" OR "transit station*"
+    OR metro OR subway OR "urban rail" OR "rail transit" OR "metro station*"
+    OR "train station*" OR "station platform*" OR "train platform*"
+    OR "metro platform*" OR "subway platform*" OR "rail platform*"
+    OR "transit platform*" OR "platform edge door*" OR "train door*" )
+  AND
+  ( boarding OR alight* OR "board and alight*" OR "train door*" )
+  AND
+  ( "fundamental diagram*" OR "crowd dynamic*" OR "pedestrian dynamic*" OR bottleneck*
+    OR bidirectional OR bi-directional OR "time headway" OR "social force"
+    OR "level of service" OR "door width" OR "platform edge door*" OR "keep out zone"
+    OR "differentiated door*" OR queu* OR "waiting behavio*" OR trajector*
+    OR "surveillance video" OR layout* OR "flow separat*"
+    OR "dwell time" OR "passenger service time" OR "boarding time"
+    OR "alighting time" OR "passenger flow" )
+)
+AND PUBYEAR > 1999 AND PUBYEAR < 2027
+AND LANGUAGE( english )
+AND ( DOCTYPE( ar ) OR DOCTYPE( cp ) )
+```
+
+**Web of Science:** `TS=( same three blocks )`, with the same filters as v0.2.
+
+| database | date run | hits | benchmark papers retrieved | notes |
+|---|---|---|---|---|
+| Scopus | | | | |
+| Web of Science | | | | |
+
+After running: check all benchmark papers (validation half P001, P004, P009, P010, P012 and keyword half P005, P006, P008, P015; P011 is a known miss), then draw a new, smaller precision sample from the v0.3 results.
