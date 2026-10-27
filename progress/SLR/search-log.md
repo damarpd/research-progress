@@ -178,8 +178,8 @@ AND ( DOCTYPE( ar ) OR DOCTYPE( cp ) )
 
 | database | date run | hits | benchmark papers retrieved | notes |
 |---|---|---|---|---|
-| Scopus | (add date) | 515 | 9 of 9: P001, P004, P005, P006, P008, P009, P010, P012, P015 | 76% fewer hits than v0.2 (2180); P011 is a known miss |
-| Web of Science | (add date) | 366 | 9 of 9: P001, P004, P005, P006, P008, P009, P010, P012, P015 | Core Collection; add the editions searched; P011 is a known miss |
+| Scopus | 26/10/2026 | 515 | 9 of 9: P001, P004, P005, P006, P008, P009, P010, P012, P015 | 76% fewer hits than v0.2 (2180); P011 is a known miss |
+| Web of Science | 26/10/2026 | 366 | 9 of 9: P001, P004, P005, P006, P008, P009, P010, P012, P015 | Core Collection; add the editions searched; P011 is a known miss |
 
 After running: check all benchmark papers (validation half P001, P004, P009, P010, P012 and keyword half P005, P006, P008, P015; P011 is a known miss), then draw a new, smaller precision sample from the v0.3 results.
 
@@ -209,3 +209,7 @@ After running: check all benchmark papers (validation half P001, P004, P009, P01
 | Web of Science | (add date) | 179 | 16 | 163 |
 
 - The records not retrieved by v0.3 are not yet judged. The broad query is noisy (`board*`, `platform*`, BRT as an acronym in other fields), so the counts alone do not measure recall. Next step: judge a random sample of the Scopus 298 against protocol section 5 and record how many are relevant and why v0.3 missed them.
+- Sample: `brt_missed_sample.xlsx`, 50 records drawn at random from `scopus_brt_missed.csv` (298 records) with seed 20261028 (`SLR-brt-sample.py`), judged from title and abstract against protocol section 5.
+- Result: 0 relevant, 0 maybe, 50 not relevant. Reasons: 26 no platform-level boarding/alighting, 13 BRT planning or operations only, 10 not transport (other meaning of BRT), 1 other.
+- Reading: with 0 of 50, at most about 7% of the 298 missed records (about 21 papers) are likely to be relevant (95% upper bound), and the best estimate is close to zero. v0.3 is not losing relevant BRT papers in Scopus. Not checked: the Web of Science misses (163 records); the BRT papers v0.3 does retrieve (33 in Scopus, 16 in Web of Science) are the core-tier candidates and go to screening.
+- Decision: v0.3 is frozen as the final search string. No BRT terms are added.
