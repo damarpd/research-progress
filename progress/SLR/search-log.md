@@ -231,7 +231,27 @@ After running: check all benchmark papers (validation half P001, P004, P009, P01
 - The records not retrieved by v0.3 are not yet judged. The broad query is noisy (`board*`, `platform*`, BRT as an acronym in other fields), so the counts alone do not measure recall. Next step: judge a random sample of the Scopus 298 against protocol section 5 and record how many are relevant and why v0.3 missed them.
 - Sample: `brt_missed_sample.xlsx`, 50 records drawn at random from `scopus_brt_missed.csv` (298 records) with seed 20261028 (`SLR-brt-sample.py`), judged from title and abstract against protocol section 5.
 - Result: 0 relevant, 0 maybe, 50 not relevant. Reasons: 26 no platform-level boarding/alighting, 13 BRT planning or operations only, 10 not transport (other meaning of BRT), 1 other.
-- Reading: with 0 of 50, at most about 7% of the 298 missed records (about 21 papers) are likely to be relevant (95% upper bound), and the best estimate is close to zero. v0.3 is not losing relevant BRT papers in Scopus. Not checked: the Web of Science misses (163 records); the BRT papers v0.3 does retrieve (33 in Scopus, 16 in Web of Science) are the core-tier candidates and go to screening.
+- Reading: with 0 of 50, at most about 7% of the 298 missed records (about 21 papers) are likely to be relevant (95% upper bound), and the best estimate is close to zero. v0.3 is not losing relevant BRT papers in Scopus. The Web of Science misses (163 records) were checked afterwards, see below. The BRT papers v0.3 does retrieve (33 in Scopus, 16 in Web of Science) are the core-tier candidates and go to screening.
 - Decision: v0.3 is frozen as the final search string. No BRT terms are added.
 - Web of Science misses: the broad BRT query minus v0.3 gave 163 records (`wos_brt_missed.csv`). Of these, 2 are already in the merged set (retrieved by Scopus v0.3) and 146 are in the Scopus broad-BRT missed set (the population sampled above); the remaining 15 were missed by both databases (`brt_wos_remainder.xlsx`, `SLR-wos-brt-remainder.py`). All 15 were judged from title and abstract: 0 relevant, 0 maybe, 15 not relevant (4 other, 4 other meaning of BRT, 4 transit but not BRT platform, 3 no platform-level boarding/alighting).
 - Conclusion: no relevant BRT paper was found among the records missed by v0.3 in either database. The v0.3 decision stands.
+
+## Title/abstract screening: decisions and exclusion reasons
+
+- Date logged: 27/10/2026, before screening starts. Sheet: `screening_sheet.xlsx` (601 unique records, random order, seed 20261030, prior flags and database hidden; key in `screening_key.csv`).
+- Decision for each record: **include** (meets the criteria), **maybe** (cannot be decided from the abstract; goes to full text) or **exclude** (with one reason from the list below). For includes, record the tier: core (BRT) or transferable (metro, rail, bus).
+- Screening question (protocol section 5): does the study examine boarding or alighting at a platform-vehicle interface (layout, doors, platform, crowd dynamics, boarding or alighting time, or a movement model)?
+- Exclusion reasons (fixed list, one per excluded record):
+
+| # | reason | use when |
+|---|---|---|
+| 1 | not boarding/alighting at a platform-vehicle interface | transport study, but boarding or alighting at the platform or door is not examined |
+| 2 | in-vehicle crowding only | crowding or comfort inside the vehicle, without the platform-vehicle interaction |
+| 3 | demand or route choice or station location only | demand forecasting, route or mode choice, network or station planning |
+| 4 | operations or timetabling or bunching only | scheduling, headway, bunching or fleet operations without platform-level boarding analysis |
+| 5 | general pedestrian or crowd flow without platform-level boarding | general pedestrian or crowd studies, including general fundamental diagrams, outside the boarding/alighting context |
+| 6 | not transport or other field | electronics, robotics, medicine or another meaning of BRT or platform |
+| 7 | other | any other reason; explain in the notes column |
+
+- Not recorded as reasons because the search filters already handled them: language (English only), year (2000-2026), and document type (articles and conference papers). Records without full text are excluded at the full-text stage.
+- Reasons feed the PRISMA 2020 flow diagram: the counts per reason are reported at the full-text stage, and the title/abstract stage reports the number of excluded records.
