@@ -221,12 +221,12 @@ After running: check all benchmark papers (validation half P001, P004, P009, P01
 
 ### BRT coverage check (broad BRT query against v0.3)
 
-- No known BRT papers were available, so a deliberately broad BRT query was run and compared with v0.3. Broad query: (`"bus rapid transit"` OR BRT OR `busway*`) AND (boarding OR `alight*` OR `board*` OR `"dwell time"` OR `"passenger service time"` OR `platform*` OR `"bus station*"` OR `"station design"` OR `"boarding time"`), with the same filters as v0.3 (2000-2026, English, articles and conference papers).
+- No known BRT papers were available, so a deliberately broad BRT query was run and compared with v0.3. Broad query: (`"bus rapid transit"` OR `BRT` OR `busway*`) AND (boarding OR `alight*` OR `board*` OR `"dwell time"` OR `"passenger service time"` OR `platform*` OR `"bus station*"` OR `"station design"` OR `"boarding time"`), with the same filters as v0.3 (2000-2026, English, articles and conference papers).
 
 | database | date run | broad BRT query | also retrieved by v0.3 | not retrieved by v0.3 |
 |---|---|---|---|---|
-| Scopus | (add date) | 331 | 33 | 298 |
-| Web of Science | (add date) | 179 | 16 | 163 |
+| Scopus | 26/10/2026 | 331 | 33 | 298 |
+| Web of Science | 26/10/2026 | 179 | 16 | 163 |
 
 - The records not retrieved by v0.3 are not yet judged. The broad query is noisy (`board*`, `platform*`, BRT as an acronym in other fields), so the counts alone do not measure recall. Next step: judge a random sample of the Scopus 298 against protocol section 5 and record how many are relevant and why v0.3 missed them.
 - Sample: `brt_missed_sample.xlsx`, 50 records drawn at random from `scopus_brt_missed.csv` (298 records) with seed 20261028 (`SLR-brt-sample.py`), judged from title and abstract against protocol section 5.
