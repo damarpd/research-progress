@@ -199,6 +199,26 @@ After running: check all benchmark papers (validation half P001, P004, P009, P01
 - No clearly BRT-specific study appears in the sample; the BRT coverage check is still open.
 - Decision: v0.3 is accepted as the search string, pending the BRT coverage check.
 
+### Web of Science export of v0.3
+
+- Export: `wos_v03.csv`, 367 records (the count shown in the interface was 366; Web of Science updates between a search and an export). Custom selection: authors, title, source, abstract, document type, keywords, language. 367 records, all English, no duplicate WoS IDs or DOIs; 6 records have no DOI and 1 has no abstract. All 9 retrievable benchmark papers are present.
+- One record has publication year 2027 ("Demand-driven urban rail transit timetabling: Research perspectives"); it is an early-access article of October 2026 whose volume year is 2027. It is kept as inside the 2000-2026 range.
+
+### Merge and deduplication of the v0.3 exports (PRISMA identification numbers)
+
+- Script: `SLR-merge.py`; output: `merged_v03.csv`. Records are matched by DOI, and by normalized title when at least one of the two records has no DOI.
+
+| step | records |
+|---|---|
+| Scopus | 515 |
+| Web of Science | 367 |
+| total identified | 882 |
+| duplicates removed | 281 |
+| unique records to screen | 601 |
+
+- Unique records by source: 279 in both databases, 234 in Scopus only, 88 in Web of Science only.
+- Prior articles: 9 of the 10 on-topic prior articles were retrieved by the search (P001, P004, P005, P006, P008, P009, P010, P012, P015). P011 was not retrieved and enters through "other methods". The five prior articles judged not on topic (P002, P003, P007, P013, P014) were not retrieved, as expected.
+
 ### BRT coverage check (broad BRT query against v0.3)
 
 - No known BRT papers were available, so a deliberately broad BRT query was run and compared with v0.3. Broad query: (`"bus rapid transit"` OR BRT OR `busway*`) AND (boarding OR `alight*` OR `board*` OR `"dwell time"` OR `"passenger service time"` OR `platform*` OR `"bus station*"` OR `"station design"` OR `"boarding time"`), with the same filters as v0.3 (2000-2026, English, articles and conference papers).
