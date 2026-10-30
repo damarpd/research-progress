@@ -1,8 +1,8 @@
 # SLR protocol: platform layout and boarding/alighting dynamics at multi-berth BRT stations
 
 - status: DRAFT (Steps 1-2 in progress, not registered)
-- version: 0.3
-- date: 2026-10-21
+- version: 0.4
+- date: 2026-10-30
 - guideline: Systematic Literature Review Guide: Boarding & Alighting at BRT Stations (PRISMA 2020 reporting, Wohlin 2014 snowballing)
 - change log: record every change to this protocol below, with date and reason
 
@@ -11,6 +11,7 @@
 | 0.1 | 2026-10-21 | first draft of PICOC, research questions, scope and eligibility criteria |
 | 0.2 | 2026-10-21 | confirmed date range 2000-2026; databases Scopus and Web of Science (TRID dropped); added exclusion of pedestrian/crowd-flow studies without platform-level boarding/alighting |
 | 0.3 | 2026-10-21 | quality appraisal set to a custom 5-question checklist; OSF registration skipped at this stage |
+| 0.4 | 2026-10-30 | review articles (literature reviews, systematic reviews and other secondary studies) are excluded as evidence, with the screening reason "review article (secondary study)"; relevant reviews are kept for backward snowballing and the gap discussion. Decided during title/abstract screening, before any record was judged |
 
 ## 1. Background and aim
 
@@ -55,6 +56,7 @@ This SLR establishes what is already known and what is missing. It does not repl
 - route choice, demand forecasting or station location without platform-level interaction
 - operational studies of bunching or headway without platform-level boarding/alighting analysis
 - pedestrian or crowd-flow studies (including general fundamental diagrams) without platform-level boarding/alighting analysis
+- review articles and other secondary studies (literature reviews, systematic reviews, surveys of the literature). They are not counted as included evidence, because they are not primary studies. A relevant review is marked in the notes column and kept for backward snowballing (its reference list) and the gap discussion. A primary study that only uses the word "overview" or "review" in its title is not a secondary study
 - editorials, commentaries, theses without peer review, and records with no full text available
 
 ## 6. Information sources
@@ -97,6 +99,7 @@ Each question is scored yes (1), partly (0.5), no (0) or not applicable. The sam
 - [x] studies without platform-level boarding/alighting analysis are excluded, including general fundamental-diagram studies (decided 2026-10-21)
 - [x] quality appraisal: custom checklist (decided 2026-10-21)
 - [x] OSF registration: skipped at this stage (decided 2026-10-21); revisit before running the searches if the supervisor asks for it
+- [x] review articles (secondary studies) are excluded as evidence and kept for snowballing (decided 2026-10-30)
 
 ## 10. Additional notes (you can avoid this subsection)
 - Consideration of deciding the date range 

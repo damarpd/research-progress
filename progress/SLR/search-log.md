@@ -241,7 +241,7 @@ After running: check all benchmark papers (validation half P001, P004, P009, P01
 - Date logged: 27/10/2026, before screening starts. Sheet: `screening_sheet.xlsx` (601 unique records, random order, seed 20261030, prior flags and database hidden; key in `screening_key.csv`).
 - Decision for each record: **include** (meets the criteria), **maybe** (cannot be decided from the abstract; goes to full text) or **exclude** (with one reason from the list below). For includes, record the tier: core (BRT) or transferable (metro, rail, bus).
 - Screening question (protocol section 5): does the study examine boarding or alighting at a platform-vehicle interface (layout, doors, platform, crowd dynamics, boarding or alighting time, or a movement model)?
-- Exclusion reasons (fixed list, one per excluded record):
+- Exclusion reasons (fixed list, one per excluded record; reason 7 was added on 30/10/2026 with protocol v0.4, before any record was judged):
 
 | # | reason | use when |
 |---|---|---|
@@ -251,7 +251,8 @@ After running: check all benchmark papers (validation half P001, P004, P009, P01
 | 4 | operations or timetabling or bunching only | scheduling, headway, bunching or fleet operations without platform-level boarding analysis |
 | 5 | general pedestrian or crowd flow without platform-level boarding | general pedestrian or crowd studies, including general fundamental diagrams, outside the boarding/alighting context |
 | 6 | not transport or other field | electronics, robotics, medicine or another meaning of BRT or platform |
-| 7 | other | any other reason; explain in the notes column |
+| 7 | review article (secondary study) | literature review, systematic review or survey of the literature (protocol v0.4, 30/10/2026); if relevant to the topic, write "review, keep for snowballing" in the notes column |
+| 8 | other | any other reason; explain in the notes column |
 
 - Not recorded as reasons because the search filters already handled them: language (English only), year (2000-2026), and document type (articles and conference papers). Records without full text are excluded at the full-text stage.
 - Reasons feed the PRISMA 2020 flow diagram: the counts per reason are reported at the full-text stage, and the title/abstract stage reports the number of excluded records.
