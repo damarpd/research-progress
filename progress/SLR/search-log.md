@@ -256,3 +256,25 @@ After running: check all benchmark papers (validation half P001, P004, P009, P01
 
 - Not recorded as reasons because the search filters already handled them: language (English only), year (2000-2026), and document type (articles and conference papers). Records without full text are excluded at the full-text stage.
 - Reasons feed the PRISMA 2020 flow diagram: the counts per reason are reported at the full-text stage, and the title/abstract stage reports the number of excluded records.
+
+### Screening result (finished 10/11/2026)
+
+- All 601 records judged (S001-S601, no gaps, every exclude has a reason). Records skipped by mistake (S308, S381, S529) and six excludes without a reason (S530, S535, S554, S576, S589, S591) were completed before the tally.
+
+| decision | records | share |
+|---|---|---|
+| exclude | 423 | 70.4% |
+| maybe | 84 | 14.0% |
+| include | 94 | 15.6% |
+
+- Exclusion reasons (423): 334 not boarding/alighting at a platform-vehicle interface; 44 operations or timetabling or bunching only; 31 demand or route choice or station location only; 6 in-vehicle crowding only; 5 not transport or other field; 2 general pedestrian or crowd flow; 1 review article (S002, kept for snowballing). The tally above includes the S496 correction below; the counts per reason before the correction were 335 / 44 / 31 / 6 / 5 / 2 / 1 (424 excluded, 93 included).
+- To full text: 178 records (94 include, 84 maybe). Tier: core 37, transferable 127, no tier 14 (settled at full text).
+- PRISMA counts: 882 identified, 281 duplicates removed, 601 screened, 423 excluded, 178 sought for full text (before counting the two duplicate publications below once).
+- Duplicate publications found during screening (same research line, journal version extended from a conference version, one author added): S354 (journal 2018) and S407 (conference 2017); S051 (journal 2020) and S423 (conference chapter 2019). Rule: both stay include, the journal version is the main study, each pair is counted once. Notes are saved on S407 and S423. Distinct studies: 176 (178 records, two pairs). Two other similar pairs (S234/S516, S082/S171) were excluded and are not relevant.
+
+### Consistency check with the prior articles (after unblinding, 10/11/2026)
+
+- `screening_key.csv` was opened only after all 601 records were judged. The nine prior articles retrieved by the search (P001, P004, P005, P006, P008, P009, P010, P012, P015) are all include, matching `on_topic = yes`: S188, S288, S403, S280, S496, S219, S317, S394, S472.
+- Blind agreement was 8 of 9. P008 (S496) was excluded at first with the reason "not boarding/alighting at a platform-vehicle interface", which was a screening error, and was corrected to include (transferable) after unblinding.
+- Other edits made after unblinding: the tier of S288 (P004) changed from core to transferable (conventional bus, protocol section 4); notes added on S219, S280, S317, S394, S403, S472 (system type). No other decision was changed.
+- Deviation to report in the paper: one decision was corrected after the key was opened, so the consistency check is not fully blind. Because of this error, the second reviewer should also check a sample of the excluded records.
