@@ -268,7 +268,7 @@ After running: check all benchmark papers (validation half P001, P004, P009, P01
 | include | 94 | 15.6% |
 
 - Exclusion reasons (423): 334 not boarding/alighting at a platform-vehicle interface; 44 operations or timetabling or bunching only; 31 demand or route choice or station location only; 6 in-vehicle crowding only; 5 not transport or other field; 2 general pedestrian or crowd flow; 1 review article (S002, kept for snowballing). The tally above includes the S496 correction below; the counts per reason before the correction were 335 / 44 / 31 / 6 / 5 / 2 / 1 (424 excluded, 93 included).
-- To full text: 178 records (94 include, 84 maybe). Tier: core 37, transferable 127, no tier 14 (settled at full text).
+- To full text: 178 records (94 include, 84 maybe). Tier: core 36, transferable 128, no tier 14 (settled at full text); S288 moved from core to transferable, see the consistency check below.
 - PRISMA counts: 882 identified, 281 duplicates removed, 601 screened, 423 excluded, 178 sought for full text (before counting the two duplicate publications below once).
 - Duplicate publications found during screening (same research line, journal version extended from a conference version, one author added): S354 (journal 2018) and S407 (conference 2017); S051 (journal 2020) and S423 (conference chapter 2019). Rule: both stay include, the journal version is the main study, each pair is counted once. Notes are saved on S407 and S423. Distinct studies: 176 (178 records, two pairs). Two other similar pairs (S234/S516, S082/S171) were excluded and are not relevant.
 

@@ -1,8 +1,8 @@
 # SLR protocol: platform layout and boarding/alighting dynamics at multi-berth BRT stations
 
 - status: DRAFT (Steps 1-2 in progress, not registered)
-- version: 0.4
-- date: 2026-10-30
+- version: 0.5
+- date: 2026-11-18
 - guideline: Systematic Literature Review Guide: Boarding & Alighting at BRT Stations (PRISMA 2020 reporting, Wohlin 2014 snowballing)
 - change log: record every change to this protocol below, with date and reason
 
@@ -12,6 +12,7 @@
 | 0.2 | 2026-10-21 | confirmed date range 2000-2026; databases Scopus and Web of Science (TRID dropped); added exclusion of pedestrian/crowd-flow studies without platform-level boarding/alighting |
 | 0.3 | 2026-10-21 | quality appraisal set to a custom 5-question checklist; OSF registration skipped at this stage |
 | 0.4 | 2026-10-30 | review articles (literature reviews, systematic reviews and other secondary studies) are excluded as evidence, with the screening reason "review article (secondary study)"; relevant reviews are kept for backward snowballing and the gap discussion. Decided during title/abstract screening, before any record was judged |
+| 0.5 | 2026-11-18 | added the full-text screening procedure and its fixed exclusion reasons (section 7); companion reports of one study are counted once. Written after title/abstract screening and before any full text was read |
 
 ## 1. Background and aim
 
@@ -70,6 +71,13 @@ This SLR establishes what is already known and what is missing. It does not repl
 
 - screening: title/abstract, then full text, with exclusion reasons recorded; a second reviewer screens a 10-20% random sample and kappa is reported
 - quality appraisal: one custom checklist applied to every included study (see below)
+- full-text screening (added in v0.5): the 178 records kept after title/abstract screening (176 distinct studies) are read in full against section 5, using `fulltext_sheet.xlsx`
+    - pilot: the first 20 records (random, seed 20261118) are screened first; if the reasons or criteria need clarifying, update this protocol (new version, change log) before the rest are screened
+    - order after the pilot: core tier first, then transferable, then records without a tier (the tier is settled at full text)
+    - one reason per excluded record, from this fixed list: (1) full text not available; (2) no boarding/alighting analysis at a platform-vehicle interface; (3) none of the outcomes of interest reported (layout effect, crowd measure, movement model, boarding/alighting time); (4) not a primary study (review, commentary, editorial); (5) duplicate report of another included study; (6) insufficient detail to extract or appraise; (7) other, explained in the notes
+    - companion reports of one study (a conference version of a journal paper) are linked and counted once; the journal version is the main study (S354 with S407, S051 with S423)
+    - the second reviewer screens a random sample at full text as well; the counts per reason feed the PRISMA 2020 flow diagram
+    - prior articles are screened like every other record; P011 is added through "other methods" and screened with the same reasons
 - extraction form: to be piloted on 3-5 papers
 - synthesis: descriptive mapping and thematic synthesis, analyzed separately for core and transferable tiers; PRISMA 2020 flow diagram
 
