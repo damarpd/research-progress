@@ -4,3 +4,7 @@
 # Python
 __pycache__/
 *.py[cod]
+
+# Downloaded full-text articles (copyrighted, large); the folder README stays tracked
+progress/SLR/fulltext_pdfs/*
+!progress/SLR/fulltext_pdfs/README.md
